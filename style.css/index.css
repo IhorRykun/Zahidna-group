@@ -1,0 +1,81 @@
+body {
+  width: 1920px;
+}
+
+.main {
+  width: 1920px;
+  height: 800px;
+  background-image: url(../img/proektirovanie.jpg);
+  background: linear-gradient(rgba(128, 112, 112, 0.5));
+}
+
+.pro-nas {
+  margin: 30px 0px 0px 650px;
+  font-family: 'Open Sans',
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.nashi-poslugi {
+  padding: 30px 0px 0px 76px;
+  font-family: 'Open Sans',
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.perevagi {
+  padding: 30px 0px 0px 76px;
+  font-family: 'Open Sans',
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contact {
+  padding: 0px 0px 0px 76px;
+  font-family: 'Open Sans',
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  body {
+
+    display: inline;
+  }
+
+  .telephone {
+    padding: 0px 0px 0px 448px;
+    font-family: 'Open Sans',
+      sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .fan {}
