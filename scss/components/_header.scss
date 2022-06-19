@@ -1,26 +1,16 @@
-.container-header--flex {
+
+.container--img {
+  background-image:url(/img/hero/hero.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between
-
+  justify-content: space-around
 }
-.container--img {
-  background-image: url(/img/hero/hero.jpg);
-  background-size:contain;
-}
-
-.header-navigation {
-  display: flex;
-}
-.navigation__list {
-  text-decoration: none;
-  display: flex;
-}
-
-.navigation__item {
-  text-decoration: none;
-}
-
-.address__list {
+.navigatiom__list {
   display: flex;
 }
