@@ -1,6 +1,9 @@
 // хедер сторінки
 .header {
-  background-image:url(/img/hero/hero.jpg)
+  background-image:url(/img/hero/hero.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+
 }
 .navigation {
   display: flex;
@@ -46,8 +49,6 @@ margin-top: 17px;
 .section-hero__list {
   display: flex;
   align-items:center;
-  width: 548px;
-  flex-wrap: wrap;
 
 }
 // кнопка в хедері
