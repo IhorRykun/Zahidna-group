@@ -42,14 +42,13 @@ img {
 }
 
 .header {
-  background: #FFFFFF;
   opacity: 0.1;
   border-bottom: 1px solid #000000;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container--img {
+.img-hero {
   background-image: url(/img/hero/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -66,12 +65,10 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.navigation__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  opacity: 0.1;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .navigatiom__item {
@@ -90,8 +87,8 @@ img {
   color: #FFFFFF;
 }
 
-.navigatiom__item-link::before {
-  content: "";
-  display: block;
+.section-hero {
+  padding-top: 126px;
+  padding-bottom: 153px;
 }
 /*# sourceMappingURL=main.css.map */
