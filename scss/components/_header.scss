@@ -9,8 +9,17 @@
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: space-around
+  justify-content: space-between;
 }
 .navigatiom__list {
   display: flex;
+}
+.navigatiom__item {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height:1.71;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
