@@ -617,5 +617,10 @@ img {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #2E2E26;
+  margin-left: -30px;
+}
+
+.about__text-h5--svg {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */
