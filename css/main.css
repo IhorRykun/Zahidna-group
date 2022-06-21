@@ -394,6 +394,7 @@ img {
 }
 
 .section-hero {
+  position: relative;
   padding-top: 126px;
   padding-bottom: 153px;
   padding-left: 357px;
@@ -492,5 +493,12 @@ img {
   width: 53px;
   height: 1px;
   background: #2493EB;
+}
+
+.hero-social__list {
+  list-style: none;
+  position: absolute;
+  bottom: 49px;
+  right: 38px;
 }
 /*# sourceMappingURL=main.css.map */
