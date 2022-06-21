@@ -72,6 +72,11 @@ img {
 .logo-svg {
   margin-top: 18px;
   margin-bottom: 12px;
+  fill: #FFFFFF;
+}
+
+.logo-svg:hover, .logo-svg:focus {
+  fill: #2493EB;
 }
 
 .navigation__list {
@@ -120,6 +125,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.navigation__link:focus, .navigation__link:hover {
+  color: #2493EB;
 }
 
 .section-hero {
