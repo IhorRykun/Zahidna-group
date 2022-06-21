@@ -501,4 +501,49 @@ img {
   bottom: 49px;
   right: 38px;
 }
+
+.hero--decoration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  position: absolute;
+  bottom: 149px;
+  left: 38px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.hero-text--decoration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.hero-text--decoration::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  background: #FFFFFF;
+  opacity: 0.5;
+  margin: 0 15px;
+}
+
+.hero--decoration--svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
 /*# sourceMappingURL=main.css.map */
