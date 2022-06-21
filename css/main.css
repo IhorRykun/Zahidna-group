@@ -188,6 +188,7 @@ img {
 }
 
 .section-hero__button {
+  position: relative;
   width: 336px;
   height: 60px;
   cursor: pointer;
@@ -202,5 +203,20 @@ img {
   border: 1px solid #2493EB;
   -webkit-filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
           filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
+}
+
+.section-hero__button:hover, .section-hero__button:focus {
+  background-color: #2493EB;
+}
+
+.section-hero__button::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  right: -35px;
+  display: block;
+  width: 53px;
+  height: 1px;
+  background: #2493EB;
 }
 /*# sourceMappingURL=main.css.map */
