@@ -598,6 +598,7 @@ img {
   font-size: 16px;
   line-height: 1.50;
   color: #2E2E26;
+  margin-left: 20px;
 }
 
 .about__text-h5 {
@@ -607,16 +608,6 @@ img {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #2E2E26;
-}
-
-.about__text-h5--number {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 100px;
-  line-height: 1.82;
-  text-transform: uppercase;
-  color: #2493EB;
-  opacity: 0.1;
 }
 
 .about__text-h5--about__text-h5--experience {
