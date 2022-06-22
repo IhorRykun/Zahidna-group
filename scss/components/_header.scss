@@ -229,11 +229,12 @@ transform: rotate(90deg);
 }
 .about--flex {
   display: flex;
-justify-content: center
+justify-content: center;
 }
 .about-container--text {
 width: 598px;
 margin-right: 198px;
+position: relative;
 }
 .about__title {
  font-style: normal;
@@ -277,22 +278,31 @@ margin-left: 20px;
 }
 
 .about__text-h5 {
-padding: 0;
-margin: 0;
-color: #2E2E26;
+  margin-top: 48px;
+  margin-left: 55px;
 
+font-weight: 400;
+font-size: 18px;
+line-height: 1.50;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+color: #2E2E26;
 }
+.about__text-h5--strike {
 
-.about__text-h5--about__text-h5--experience {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.50;
+letter-spacing: 0.01em;
+text-transform: uppercase;
 
-
-color: #2E2E26;
-
-margin-left: -30px;
+color: #2E2E26
 }
 
 .about__text-h5--svg {
-  margin-top: 20px;
+position: absolute; 
+bottom:170px;
+left: 0;
   
 }
 
