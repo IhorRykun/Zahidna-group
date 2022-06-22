@@ -129,7 +129,7 @@ margin-bottom: 19px;
 .section-hero__item--absolute {
   position: absolute;
   top:0;
-  right: -300px;
+  right: -331px;
 }
 
 .section-hero__item-text {
@@ -229,6 +229,7 @@ transform: rotate(90deg);
 }
 .about--flex {
   display: flex;
+justify-content: center
 }
 .about-container--text {
 width: 598px;

@@ -276,6 +276,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: 1200px;
 }
 
 h1,
@@ -449,7 +450,7 @@ img {
 .section-hero__item--absolute {
   position: absolute;
   top: 0;
-  right: -300px;
+  right: -331px;
 }
 
 .section-hero__item-text {
@@ -556,6 +557,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-container--text {
