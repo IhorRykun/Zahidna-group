@@ -1,3 +1,107 @@
+.section-hero {
+  position: relative;
+  padding-top: 126px;
+  padding-bottom: 153px;
+  padding-left: 357px;
+
+}
+.container--flex {
+  display: flex;
+  align-items: center;
+}
+
+.section-hero__title-h1 {
+ font-weight: 800;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #2493EB;
+}
+
+.section-hero__title-h2 {
+font-weight: 800;
+font-size: 50px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+width: 100%;
+max-width: 503px;
+margin-bottom: 37px;
+margin-top: 17px;
+}
+
+.section-hero__list {
+  display: flex;
+  flex-wrap: wrap;
+margin-left: 95px;
+width: 588px;
+}
+
+.section-hero__item {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.33;
+color:#2493EB;
+width: 271px;
+
+&:last-child{
+  margin-top: -51px;
+}
+}
+
+.section-hero__item--absolute {
+ width: 216px;
+ margin-left: 61px;
+}
+
+.section-hero__item-text {
+  color:#FFFFFF;
+}
+
+.navigation__link {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+// кнопка в герой
+.section-hero__button {
+  position: relative;
+  width: 336px;
+  height:60px;
+  cursor: pointer;
+
+font-weight: 600;
+font-size: 14px;
+line-height: 1.50;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background-color: transparent;
+
+border: 1px solid #2493EB;
+filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
+
+&:hover,
+&:focus {
+  background-color:#2493EB;
+
+}
+&::after{
+  content:"";
+  position: absolute;
+  top:28px;
+  right: -35px;
+  display: block;
+  width: 53px;
+height: 1px;
+background: #2493EB;
+}
+}
+
 // соціальні мережі героя
 .hero-social__list {
   list-style: none;

@@ -433,10 +433,13 @@ img {
 }
 
 .section-hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: 95px;
-  display: block;
-  width: 271px;
-  position: relative;
+  width: 588px;
 }
 
 .section-hero__item {
@@ -445,13 +448,15 @@ img {
   line-height: 1.33;
   color: #2493EB;
   width: 271px;
-  margin-bottom: 19px;
+}
+
+.section-hero__item:last-child {
+  margin-top: -51px;
 }
 
 .section-hero__item--absolute {
-  position: absolute;
-  top: 0;
-  right: -331px;
+  width: 216px;
+  margin-left: 61px;
 }
 
 .section-hero__item-text {
