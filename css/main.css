@@ -660,7 +660,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   color: #2E2E26;
-  margin-bottom: 50px;
+  margin-bottom: 72px;
   margin-top: 10px;
 }
 
@@ -807,5 +807,41 @@ img {
   text-transform: uppercase;
   padding-top: 20px;
   color: #FFFFFF;
+}
+
+.service__button {
+  position: relative;
+  width: 336px;
+  height: 60px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 800px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.50;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #2E2E26;
+  background-color: transparent;
+  border: 1px solid #2493EB;
+  -webkit-filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
+          filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
+}
+
+.service__button:hover, .service__button:focus {
+  background-color: #2493EB;
+  color: #FFFFFF;
+}
+
+.service__button::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  right: -35px;
+  display: block;
+  width: 53px;
+  height: 1px;
+  background: #2493EB;
 }
 /*# sourceMappingURL=main.css.map */

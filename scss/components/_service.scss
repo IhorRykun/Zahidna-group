@@ -19,7 +19,7 @@ line-height: 1.22;
 text-transform: uppercase;
 text-align: center;
 color: #2E2E26;
-margin-bottom: 50px;
+margin-bottom: 72px;
 margin-top: 10px;
 }
 .service__list {
@@ -55,6 +55,7 @@ width: 290px;
 height: 40px;
 padding-left: 20px;
 }
+
 .service__item--before01::before {
   position: absolute;
   top:-22px;
@@ -156,4 +157,46 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 padding-top: 20px;
 color: #FFFFFF;
+}
+
+// кнопка сервісу
+.service__button {
+  position: relative;
+  width: 336px;
+  height:60px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 800px;
+
+
+
+font-weight: 600;
+font-size: 14px;
+line-height: 1.50;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #2E2E26;
+background-color: transparent;
+
+border: 1px solid #2493EB;
+filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
+
+&:hover,
+&:focus {
+  background-color:#2493EB;
+  color:#FFFFFF;
+
+}
+&::after{
+  content:"";
+  position: absolute;
+  top:28px;
+  right: -35px;
+  display: block;
+  width: 53px;
+height: 1px;
+background: #2493EB;
+}
 }
