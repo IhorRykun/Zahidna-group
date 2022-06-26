@@ -394,8 +394,8 @@ img {
 
 .navigation__link:focus, .navigation__link:hover {
   color: #2493EB;
-  -webkit-animation: tracking-in-expand-fwd 2s;
-          animation: tracking-in-expand-fwd 2s;
+  -webkit-animation: tracking-in-contract 0.5s;
+          animation: tracking-in-contract 0.5s;
 }
 
 .section-hero {
@@ -919,36 +919,30 @@ img {
   }
 }
 
-@-webkit-keyframes tracking-in-expand-fwd {
+@-webkit-keyframes tracking-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px);
-            transform: translateZ(-700px);
+    letter-spacing: 1em;
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    letter-spacing: normal;
     opacity: 1;
   }
 }
 
-@keyframes tracking-in-expand-fwd {
+@keyframes tracking-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px);
-            transform: translateZ(-700px);
+    letter-spacing: 1em;
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    letter-spacing: normal;
     opacity: 1;
   }
 }

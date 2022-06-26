@@ -22,17 +22,16 @@
   }
 }
 
-@keyframes tracking-in-expand-fwd {
+@keyframes tracking-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    transform: translateZ(-700px);
+    letter-spacing: 1em;
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
-    transform: translateZ(0);
+    letter-spacing: normal;
     opacity: 1;
   }
 }
