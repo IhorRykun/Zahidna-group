@@ -54,6 +54,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color:#FFFFFF;
+
+animation:heartbeat 0.7s infinite;
 }
 
 .navigation__link--svg {
@@ -74,6 +76,7 @@ color:#FFFFFF;
 &:focus,
 &:hover {
   color:#2493EB;
+  animation:tracking-in-expand-fwd 2s;
 }
 }
 
