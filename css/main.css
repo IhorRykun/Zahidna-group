@@ -796,7 +796,7 @@ img {
 .service__item--before04::before {
   position: absolute;
   top: 430px;
-  left: -21px;
+  left: -22px;
   content: "04";
   display: block;
   width: 63px;
