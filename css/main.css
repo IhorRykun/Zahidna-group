@@ -383,8 +383,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-  border: 2px solid #FFFFFF;
-  border-radius: 50px;
+  border: 2px solid #2493EB;
   width: 200px;
   height: 50px;
   -webkit-animation: heartbeat 0.7s infinite;
@@ -395,6 +394,17 @@ img {
   background-color: #2493EB;
   color: #FFFFFF;
   border-color: #2493EB;
+}
+
+.navigation__item-link::after {
+  content: "";
+  position: absolute;
+  top: 21px;
+  right: -35px;
+  display: block;
+  width: 53px;
+  height: 1px;
+  background: #2493EB;
 }
 
 .navigation__link--svg {

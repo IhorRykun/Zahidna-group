@@ -58,11 +58,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color:#FFFFFF;
-border: 2px solid #FFFFFF;
-border-radius: 50px;
+border: 2px solid #2493EB;
 width: 200px;
 height: 50px;
 animation:heartbeat 0.7s infinite;
+
 
 &:hover,
 &:focus {
@@ -70,6 +70,15 @@ animation:heartbeat 0.7s infinite;
   color:#FFFFFF;
 border-color: #2493EB ;
 }
+&::after{
+  content:"";
+  position: absolute;
+  top:21px;
+  right: -35px;
+  display: block;
+  width: 53px;
+height: 1px;
+background: #2493EB;}
 }
 
 .navigation__link--svg {
