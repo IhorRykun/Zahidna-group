@@ -1046,7 +1046,7 @@ img {
 .help__form {
   width: 600px;
   margin-left: 206px;
-  background-color: #00000070;
+  background-color: #00000060;
   padding-top: 100px;
 }
 
@@ -1065,6 +1065,12 @@ img {
   font-size: 16px;
   line-height: 1.38;
   margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 31px;
   color: #FFFFFF;
+}
+
+.help__lable {
+  margin-left: 40px;
 }
 /*# sourceMappingURL=main.css.map */
