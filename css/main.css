@@ -1044,7 +1044,6 @@ img {
   color: #FFFFFF;
   width: 390px;
   padding: 100px 0;
-  z-index: 10;
 }
 
 .help__form {
@@ -1058,7 +1057,6 @@ img {
   line-height: 1.5;
   text-transform: uppercase;
   color: #FFFFFF;
-  text-align: center;
 }
 
 .help__text {
@@ -1066,7 +1064,6 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
-  text-align: center;
   margin-top: 10px;
   margin-bottom: 31px;
   color: #FFFFFF;
