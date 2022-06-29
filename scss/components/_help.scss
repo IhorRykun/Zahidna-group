@@ -4,7 +4,6 @@
   background-repeat:no-repeat;
   display: flex;
   justify-content: center;
-  align-items:center;
 }
 
 .help__title {
@@ -21,13 +20,16 @@ padding: 100px 0;
 
 .help__form {
   width: 600px;
-  margin-left:206px;  
+  margin-left:206px; 
+  background-color: #00000070;
+  padding-top: 100px;
 }
 
 .help__title--h3 {
 font-weight: 700;
 font-size: 18px;
 line-height: 1.5;
+margin-left: 40px;
 
 text-transform: uppercase;
 color: #FFFFFF;
@@ -35,11 +37,11 @@ color: #FFFFFF;
 
 .help__text {
 font-style: normal;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 1.38;
-margin-top: 10px;
-margin-bottom: 31px;
+margin-left: 40px;
 
 color: #FFFFFF;
 }
