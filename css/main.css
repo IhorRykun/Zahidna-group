@@ -1020,4 +1020,47 @@ img {
             filter: blur(12px) opacity(0%);
   }
 }
+
+.help {
+  background-image: url(/img/help/help.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.help__title {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 390px;
+  padding: 100px 0;
+  z-index: 10;
+}
+
+.help__form {
+  background-color: #000000;
+  width: 600px;
+  margin: 62px 0;
+}
+
+.help__title--h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.help__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=main.css.map */
