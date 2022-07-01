@@ -314,6 +314,17 @@ img {
   width: 1920px;
 }
 
+.header-container--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,7 +370,7 @@ img {
 }
 
 .navigation__item:last-child {
-  margin-right: 76px;
+  margin-right: 0;
 }
 
 .navigation__item--telephone {
@@ -688,6 +699,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  border: 1px solid red;
   opacity: 0.15;
   text-shadow: 0px 4px 4px black;
   -webkit-transform: rotate(-90deg);
