@@ -23,6 +23,7 @@ padding: 100px 0;
   margin-left:206px; 
   background-color: #00000060;
   padding-top: 100px;
+  position: relative;
 }
 
 .help__title--h3 {
@@ -50,4 +51,17 @@ color: #FFFFFF;
 
 .help__lable {
   margin-left: 40px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.57;
+  color:#ffffff70;
+ }
+
+.help__input {
+  background-color:transparent;
+  width: calc(100%-120px)/2;
+  border: none;
+border-bottom:1px solid #ffffff70;
+height: 28px;
+color:#FFFFFF;
 }
