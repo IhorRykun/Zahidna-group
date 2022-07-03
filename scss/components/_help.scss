@@ -55,13 +55,38 @@ color: #FFFFFF;
 font-size: 14px;
 line-height: 1.57;
   color:#ffffff70;
+  position: absolute;
  }
 
 .help__input {
   background-color:transparent;
-  width: calc(100%-120px)/2;
   border: none;
 border-bottom:1px solid #ffffff70;
 height: 28px;
 color:#FFFFFF;
+margin-right: 39px;
+margin-left: 40px;
+&:last-child {
+  margin-right: 0;
 }
+}
+
+.help__button {
+  font-weight: 600;
+font-size: 14px;
+line-height: 1.50;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  margin-top: 38px;
+  width: 241px;
+  height: 60px;
+  background-color:#2493EB;
+ border:#2493EB;
+}
+
+
+
