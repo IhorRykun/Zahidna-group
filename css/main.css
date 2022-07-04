@@ -557,6 +557,47 @@ img {
   right: 38px;
 }
 
+.hero-social__item {
+  margin-bottom: 24px;
+  margin-right: 38px;
+}
+
+.hero-social__item:last-child {
+  margin-bottom: 0;
+}
+
+.hero-social__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  border: 1px solid #ffffff30;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-social__link:focus, .hero-social__link:hover {
+  border-color: #FFFFFF;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.hero-social__link:focus .hero-social__svg,
+.hero-social__link:hover .hero-social__svg {
+  fill: #FFFFFF;
+}
+
+.hero-social__svg {
+  fill: #ffffff70;
+}
+
 .hero--decoration {
   display: -webkit-box;
   display: -ms-flexbox;
