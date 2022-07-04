@@ -148,6 +148,8 @@ background: #2493EB;
 // декорація героя
 
 .hero--decoration {
+  font-family: 'Montserrat';
+    font-style: normal;
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
@@ -164,6 +166,7 @@ font-size: 11px;
 line-height: 13px;
 letter-spacing: 0.02em;
 text-transform: uppercase;
+color:#ffffff70;
 }
 
 .hero-text--decoration::before {

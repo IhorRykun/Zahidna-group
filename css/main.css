@@ -599,6 +599,8 @@ img {
 }
 
 .hero--decoration {
+  font-family: 'Montserrat';
+  font-style: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -626,6 +628,7 @@ img {
   line-height: 13px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  color: #ffffff70;
 }
 
 .hero-text--decoration::before {
