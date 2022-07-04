@@ -797,7 +797,6 @@ img {
 
 .service__img {
   width: 310px;
-  position: relative;
   display: block;
 }
 
@@ -955,6 +954,12 @@ img {
   width: 53px;
   height: 1px;
   background: #2493EB;
+}
+
+.service__item--decor {
+  position: absolute;
+  top: 41px;
+  left: -240px;
 }
 
 @-webkit-keyframes heartbeat {
@@ -1181,5 +1186,6 @@ img {
   height: 60px;
   background-color: #2493EB;
   border: #2493EB;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
