@@ -956,10 +956,40 @@ img {
   background: #2493EB;
 }
 
-.service__item--decor {
+.service__item--decor01 {
   position: absolute;
   top: 41px;
   left: -240px;
+}
+
+.service__item--decor02 {
+  position: absolute;
+  top: 41px;
+  left: 175px;
+}
+
+.service__item--decor03 {
+  position: absolute;
+  top: 41px;
+  left: 590px;
+}
+
+.service__item--decor04 {
+  position: absolute;
+  top: 493px;
+  left: -240px;
+}
+
+.service__item--decor05 {
+  position: absolute;
+  top: 493px;
+  left: 175px;
+}
+
+.service__item--decor06 {
+  position: absolute;
+  top: 493px;
+  left: 590px;
 }
 
 @-webkit-keyframes heartbeat {
