@@ -993,6 +993,10 @@ img {
   left: 590px;
 }
 
+.service-list--decor {
+  list-style: none;
+}
+
 .service--decor--reg90 {
   position: absolute;
   top: 480px;
