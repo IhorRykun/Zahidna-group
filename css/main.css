@@ -1234,12 +1234,42 @@ img {
   border-bottom: 1px solid #ffffff70;
   height: 28px;
   color: #FFFFFF;
-  margin-right: 39px;
   margin-left: 40px;
+  width: 240px;
 }
 
 .help__input:last-child {
   margin-right: 0;
+}
+
+.form-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.form-checkbox__input {
+  width: 25px;
+  height: 25px;
+  margin-right: 18px;
+}
+
+.form-checkbox__leble {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.50;
+  color: #FFFFFF70;
+  width: 220px;
+  height: 42px;
 }
 
 .help__button {
@@ -1250,9 +1280,9 @@ img {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-top: 38px;
   width: 241px;
   height: 60px;
+  margin-left: 20px;
   background-color: #2493EB;
   border: #2493EB;
   cursor: pointer;

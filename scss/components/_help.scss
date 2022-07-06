@@ -64,31 +64,53 @@ line-height: 1.57;
 border-bottom:1px solid #ffffff70;
 height: 28px;
 color:#FFFFFF;
-margin-right: 39px;
 margin-left: 40px;
+width: 240px;
 &:last-child {
   margin-right: 0;
 }
 }
 
+.form-checkbox {
+  display: flex;
+ align-items: center;
+justify-content: flex-start;
+ margin-top: 30px;
+ margin-left: 40px;
+
+}
+.form-checkbox__input {
+  width: 25px;
+  height: 25px;
+  margin-right: 18px;
+}
+
+.form-checkbox__leble {
+  font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.50;
+    color: #FFFFFF70;
+    width: 220px;
+    height: 42px;
+}
 
 .help__button {
   font-weight: 600;
-font-size: 14px;
-line-height: 1.50;
+  font-size: 14px;
+  line-height: 1.50;
 
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 
-color: #FFFFFF;
-  margin-top: 38px;
+  color: #FFFFFF;
   width: 241px;
   height: 60px;
-  background-color:#2493EB;
- border:#2493EB;
- cursor: pointer;
+  margin-left: 20px;
+  background-color: #2493EB;
+  border: #2493EB;
+  cursor: pointer;
 }
-
 
 
