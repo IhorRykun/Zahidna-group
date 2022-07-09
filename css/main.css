@@ -1348,6 +1348,11 @@ img {
   margin-bottom: 26px;
 }
 
+.decoration--befor01::before {
+  content: '01';
+  display: block;
+}
+
 .benefits__h4 {
   font-style: normal;
   font-weight: 700;
@@ -1379,6 +1384,7 @@ img {
 }
 
 .benefits__button {
+  position: relative;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -1388,7 +1394,7 @@ img {
   text-transform: uppercase;
   background-color: #fff;
   color: #2E2E26;
-  border-color: #2493EB;
+  border: 1px solid #2493EB;
   width: 300px;
   height: 60px;
   margin-top: 50px;
@@ -1401,11 +1407,14 @@ img {
 }
 
 .benefits__button::after {
+  position: absolute;
+  top: 30px;
+  right: -35px;
   content: '';
   display: block;
   width: 53px;
   height: 1px;
-  color: #2493EB;
+  background-color: #2493EB;
 }
 
 .benefits-button__container {
