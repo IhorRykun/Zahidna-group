@@ -1,5 +1,6 @@
 .benefits {
   padding:100px 0;
+  position: relative;
 }
 
 .benefit-container {
@@ -40,6 +41,7 @@ font-style: normal;
 }
 
 .benefits__item {
+  position: relative;
   background-color:#FCFCFC;
   display: block;
   padding-top:30px;
@@ -56,11 +58,91 @@ flex-basis: calc((100% - 2 * 60px) / 3);
   margin-bottom: 26px;
 }
 
-.decoration--befor01::before {
+.decoration--befor01::after {
+  position: absolute;
+  top:25px;
+  right:35px;
   content:'01';
   display: block;
+
+  font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.31;
+
+    color: #2493EB;
+}
+.decoration--befor02::after {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  content: '02';
+  display: block;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+
+  color: #2493EB;
 }
 
+.decoration--befor03::after {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  content: '03';
+  display: block;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+
+  color: #2493EB;
+}
+.decoration--befor04::after {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  content: '04';
+  display: block;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+
+  color: #2493EB;
+}
+.decoration--befor05::after {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  content: '05';
+  display: block;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+
+  color: #2493EB;
+}
+.decoration--befor06::after {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  content: '06';
+  display: block;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+
+  color: #2493EB;
+}
 .benefits__h4 {
   font-style: normal;
     font-weight: 700;
@@ -135,3 +217,40 @@ font-style: normal;
   align-items: center;
   justify-content: center;
 }
+
+.benefits__list--decor {
+  list-style: none;
+}
+.benefits__item--decor90reg {
+  position: absolute;
+    top: 350px;
+    left: -300px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 140px;
+    line-height: 2.36;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    opacity: 0.15;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    transform: rotate(-90deg);
+}
+
+.benefits__item--decor180reg {
+  position: absolute;
+    top: 350px;
+    right: -300px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 140px;
+    line-height: 2.36;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    opacity: 0.15;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    transform: rotate(-270deg);
+    }
