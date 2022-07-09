@@ -1388,6 +1388,7 @@ img {
   text-transform: uppercase;
   background-color: #fff;
   color: #2E2E26;
+  border-color: #2493EB;
   width: 300px;
   height: 60px;
   margin-top: 50px;
@@ -1397,7 +1398,14 @@ img {
 .benefits__button:hover, .benefits__button:focus {
   background-color: #2493EB;
   color: #fff;
-  border: #2493EB;
+}
+
+.benefits__button::after {
+  content: '';
+  display: block;
+  width: 53px;
+  height: 1px;
+  color: #2493EB;
 }
 
 .benefits-button__container {
