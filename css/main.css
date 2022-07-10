@@ -1541,4 +1541,43 @@ img {
   -webkit-transform: rotate(-270deg);
           transform: rotate(-270deg);
 }
+
+.clients {
+  background-color: #F2F2F4;
+  padding: 100px 0;
+}
+
+.clients-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.clients-title-h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.50;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2493EB;
+}
+
+.clients-title-h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.22;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2E2E26;
+}
+
+.clients__link {
+  background-color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
