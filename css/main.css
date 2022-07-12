@@ -1577,7 +1577,25 @@ img {
   color: #2E2E26;
 }
 
-.clients__link {
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fff;
+}
+
+.clients__item {
+  margin: 41px 0;
+  margin-left: 41px;
+}
+
+.clients__img {
+  width: 150px;
 }
 /*# sourceMappingURL=main.css.map */

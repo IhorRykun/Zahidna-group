@@ -37,6 +37,19 @@ text-transform: uppercase;
 color: #2E2E26;
 }
 
-.clients__link {
+.clients__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color:#fff;
+}
+
+.clients__item {
+  margin:41px 0;
+  margin-left: 41px;
+}
+
+.clients__img {
+  width: 150px;
 }
