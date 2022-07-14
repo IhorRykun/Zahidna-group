@@ -1598,4 +1598,11 @@ img {
 .clients__img {
   width: 150px;
 }
+
+.contacts {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-image: url(/img/contacts/Rectangle.png);
+  background-size: cover;
+}
 /*# sourceMappingURL=main.css.map */
