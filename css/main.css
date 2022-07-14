@@ -1605,4 +1605,11 @@ img {
   background-image: url(/img/contacts/Rectangle.png);
   background-size: cover;
 }
+
+.container-contacts {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
