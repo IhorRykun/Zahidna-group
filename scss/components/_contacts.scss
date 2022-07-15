@@ -1,6 +1,6 @@
 .contacts {
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 77px;
     background-image: url(../img/contacts/Rectangle.png);
     background-size: cover;
 }
@@ -26,4 +26,15 @@ margin-bottom: 51px;
 }
 .contact-telefon__link {
     text-decoration: none;
+}
+
+.contacts__address {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.38;
+
+color: #FFFFFF;
+width: 380px;
+margin-bottom: 25px;
 }
