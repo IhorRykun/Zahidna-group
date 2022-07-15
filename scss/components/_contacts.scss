@@ -7,6 +7,23 @@
 
 .container-contacts {
     width: 1200px;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.contacts__title {
+    font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 1.22;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-bottom: 51px;
+}
+.contacts-telefon__list {
+ list-style: none;
+}
+.contact-telefon__link {
+    text-decoration: none;
 }
