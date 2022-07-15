@@ -1628,6 +1628,11 @@ img {
 
 .contact-telefon__link {
   text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
 }
 
 .contacts__address {
