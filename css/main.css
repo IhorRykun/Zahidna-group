@@ -1602,7 +1602,7 @@ img {
 .contacts {
   padding-top: 100px;
   padding-bottom: 20px;
-  background-image: url(/img/contacts/Rectangle.png);
+  background-image: url(../img/contacts/Rectangle.png);
   background-size: cover;
 }
 
