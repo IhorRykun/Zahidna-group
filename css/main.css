@@ -1644,4 +1644,37 @@ img {
   width: 380px;
   margin-bottom: 25px;
 }
+
+.work__list {
+  list-style: none;
+}
+
+.work__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
+}
+
+.work__item--text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
+}
+
+.mail__text {
+  margin: 25px 0;
+}
+
+.link__mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
