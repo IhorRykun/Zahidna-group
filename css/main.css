@@ -1186,7 +1186,7 @@ img {
   font-size: 45px;
   line-height: 1.22;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 390px;
   padding: 100px 0;
 }
@@ -1205,7 +1205,7 @@ img {
   line-height: 1.5;
   margin-left: 40px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .help__text {
@@ -1216,7 +1216,7 @@ img {
   margin-left: 40px;
   margin-top: 10px;
   margin-bottom: 31px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .help__lable {
@@ -1233,7 +1233,7 @@ img {
   border: none;
   border-bottom: 1px solid #ffffff70;
   height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 40px;
   width: 240px;
 }
@@ -1266,8 +1266,8 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.50;
-  color: #FFFFFF70;
+  line-height: 1.5;
+  color: #ffffff70;
   width: 220px;
   height: 42px;
 }
@@ -1275,16 +1275,16 @@ img {
 .help__button {
   font-weight: 600;
   font-size: 14px;
-  line-height: 1.50;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 241px;
   height: 60px;
   margin-left: 20px;
-  background-color: #2493EB;
-  border: #2493EB;
+  background-color: #2493eb;
+  border: #2493eb;
   cursor: pointer;
 }
 
@@ -1621,7 +1621,7 @@ img {
   font-size: 45px;
   line-height: 1.22;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 51px;
 }
 
@@ -1635,7 +1635,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.38;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contacts__address {
@@ -1643,7 +1643,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 380px;
   margin-bottom: 25px;
 }
@@ -1657,7 +1657,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .work__item--text {
@@ -1665,7 +1665,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.38;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .mail__text {
@@ -1677,7 +1677,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -1685,9 +1685,9 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.50;
+  line-height: 1.5;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contacts-form__text {
@@ -1695,6 +1695,6 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
