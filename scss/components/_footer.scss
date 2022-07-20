@@ -3,6 +3,7 @@
  padding-bottom: 77px;
  background-image: url(../img/contacts/Rectangle.png);
  background-size: cover;
+ position: relative;
 }
 
 .container-footer {
@@ -80,12 +81,21 @@
 }
 .contacts-from {
     width: 600px;
+    position: absolute;
+    top:0;
+    right: 370px;
+    padding-top:108px;
+    padding-bottom: 77px;
+    background-color:#00000060;
+
 }
 .contacts-form__title {
  font-style: normal;
  font-weight: 700;
  font-size: 18px;
  line-height: 1.5;
+ margin-left: 45px;
+ margin-bottom: 15px;
 
  text-transform: uppercase;
 
@@ -96,6 +106,8 @@
  font-weight: 400;
  font-size: 16px;
  line-height: 1.38;
+ margin-left: 45px;
+ margin-bottom: 31px;
 
  color: #ffffff;
 }
