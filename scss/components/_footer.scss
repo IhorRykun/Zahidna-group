@@ -1,0 +1,101 @@
+.footer {
+ padding-top: 100px;
+ padding-bottom: 77px;
+ background-image: url(../img/contacts/Rectangle.png);
+ background-size: cover;
+}
+
+.container-footer {
+ width: 1200px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.contacts__title {
+ font-style: normal;
+ font-weight: 800;
+ font-size: 45px;
+ line-height: 1.22;
+ text-transform: uppercase;
+
+ color: #ffffff;
+ margin-bottom: 51px;
+}
+.contacts-telefon__list {
+ list-style: none;
+}
+.contact-telefon__link {
+ text-decoration: none;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.38;
+
+ color: #ffffff;
+}
+
+.contacts__address {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.38;
+
+ color: #ffffff;
+ width: 380px;
+ margin-bottom: 25px;
+}
+
+.work__list {
+ list-style: none;
+}
+
+.work__item {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.38;
+ color: #ffffff;
+}
+
+.work__item--text {
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.38;
+
+ color: #ffffff;
+}
+
+.mail__text {
+ margin: 25px 0;
+}
+
+.link__mail {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.38;
+
+ color: #ffffff;
+ text-decoration: none;
+}
+.contacts-from {
+    width: 600px;
+}
+.contacts-form__title {
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 1.5;
+
+ text-transform: uppercase;
+
+ color: #ffffff;
+}
+.contacts-form__text {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.38;
+
+ color: #ffffff;
+}

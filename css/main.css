@@ -1602,14 +1602,14 @@ img {
   width: 150px;
 }
 
-.contacts {
+.footer {
   padding-top: 100px;
   padding-bottom: 77px;
   background-image: url(../img/contacts/Rectangle.png);
   background-size: cover;
 }
 
-.container-contacts {
+.container-footer {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -1679,6 +1679,10 @@ img {
   line-height: 1.38;
   color: #ffffff;
   text-decoration: none;
+}
+
+.contacts-from {
+  width: 600px;
 }
 
 .contacts-form__title {
