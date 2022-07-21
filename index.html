@@ -316,15 +316,15 @@
 <form class="contacts-from">
 <h3 class="contacts-form__title">Маєте питання? зв’яжіться з нами!</h3>
 <p class="contacts-form__text">Заповніть форму зворотнього зв’язку і наші спеціалісти <br> зв’яжуться з Вами в найкоротші строки</p>
-<input type="tel" id="name">
+<div class="container-form__input">
+    <input class="contacts__input" type="tel" id="name">
 <label for="name" >Ваше ім’я</label>
-<input type="tel" id="mobile">
+<input class="contacts__input" type="tel" id="mobile">
 <label for="mobile" >Ваш телефон</label>
-<label for="text" id="question">
-    <textarea class="contacts__texteria" id="question" name="question" cols="30" rows="10"></textarea>
-    Ваше запитання
-</label>
-
+</div>
+<label for="question">Ваше запитання</label>
+<textarea class="contacts__texteria" id="question" name="question" cols="30" rows="10"></textarea>
+<label for="checkbox"> Я даю згоду на обробку персональних даних </label>
 </form>
 </div>
     </footer>

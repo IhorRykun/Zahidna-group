@@ -1703,6 +1703,17 @@ img {
   color: #ffffff;
 }
 
+.container-form__input {
+  margin-left: 40px;
+}
+
+.contacts__input {
+  position: relative;
+  color: #ffffff;
+  height: 28px;
+  background-color: transparent;
+}
+
 .contacts-form__text {
   font-style: normal;
   font-weight: 400;
@@ -1720,5 +1731,6 @@ img {
   margin-left: 40px;
   background-color: transparent;
   color: #ffffff;
+  resize: none;
 }
 /*# sourceMappingURL=main.css.map */
