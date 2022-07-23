@@ -1724,6 +1724,12 @@ img {
   color: #ffffff;
 }
 
+.contacts__input {
+  border: none;
+  border-bottom: 1px solid #ffffff60;
+  position: relative;
+}
+
 .contacts__texteria {
   margin-top: 51px;
   width: 520px;
@@ -1740,11 +1746,10 @@ img {
   position: absolute;
 }
 
-.input-texteria__question {
+.input-checkbox__question {
   margin-left: 44px;
   width: 25px;
   height: 25px;
-  margin-top: 48px;
 }
 
 .form-container-question--flex {
@@ -1754,18 +1759,30 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30px;
+}
+
+.lable-checkbox__question {
+  margin-left: 18px;
+  margin-right: 68px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.50;
+  color: #FFFFFF60;
 }
 
 .form-contact__button {
-  background-color: #2493EB;
+  background-color: #2493eb;
   width: 241px;
   height: 60px;
   font-weight: 600;
   font-size: 14px;
-  line-height: 1.50;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  border: #2493eb;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
