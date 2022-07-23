@@ -317,14 +317,18 @@
 <h3 class="contacts-form__title">Маєте питання? зв’яжіться з нами!</h3>
 <p class="contacts-form__text">Заповніть форму зворотнього зв’язку і наші спеціалісти <br> зв’яжуться з Вами в найкоротші строки</p>
 <div class="container-form__input">
-    <input class="contacts__input" type="tel" id="name">
+<input class="contacts__input" type="tel" id="name">
 <label for="name" >Ваше ім’я</label>
 <input class="contacts__input" type="tel" id="mobile">
 <label for="mobile" >Ваш телефон</label>
 </div>
-<label for="question">Ваше запитання</label>
+<label class="lable-texteria__question" for="question">Ваше запитання</label>
 <textarea class="contacts__texteria" id="question" name="question" cols="30" rows="10"></textarea>
-<label for="checkbox"> Я даю згоду на обробку персональних даних </label>
+<div>
+    <input class="input-texteria__question" type="checkbox"id="checkbox-question">
+    <label type="checkbox" for="checkbox-question">Я даю згоду на обробку персональних даних</label>
+    <button  type="submit">відправити </button>
+</div>
 </form>
 </div>
     </footer>
