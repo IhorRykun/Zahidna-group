@@ -184,8 +184,22 @@ color: #FFFFFF60;
   cursor: pointer;
 }
 
-.navigation__footer {
+.navigation-footer__container {
     margin-top: 75px;
     background-color:rgba(33, 33, 29, 1);
     padding: 25px 0;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.navigation-footer__svg {
+    fill: #ffffff;
+
+    &:hover,
+    &:focus {
+        fill: #2493eb;
+    }
+    cursor: pointer;
 }

@@ -1787,9 +1787,24 @@ img {
   cursor: pointer;
 }
 
-.navigation__footer {
+.navigation-footer__container {
   margin-top: 75px;
   background-color: #21211d;
   padding: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.navigation-footer__svg {
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.navigation-footer__svg:hover, .navigation-footer__svg:focus {
+  fill: #2493eb;
 }
 /*# sourceMappingURL=main.css.map */
