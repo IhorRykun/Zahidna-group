@@ -83,7 +83,7 @@
   width: 600px;
   position: absolute;
   top: 0;
-  right: 370px;
+  right: 360px;
   padding-top: 108px;
   padding-bottom: 40px;
   background-color: #00000060;
@@ -182,4 +182,10 @@ color: #FFFFFF60;
 
   color: #ffffff;
   cursor: pointer;
+}
+
+.navigation__footer {
+    margin-top: 75px;
+    background-color:rgba(33, 33, 29, 1);
+    padding: 25px 0;
 }

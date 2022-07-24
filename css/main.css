@@ -1686,7 +1686,7 @@ img {
   width: 600px;
   position: absolute;
   top: 0;
-  right: 370px;
+  right: 360px;
   padding-top: 108px;
   padding-bottom: 40px;
   background-color: #00000060;
@@ -1785,5 +1785,11 @@ img {
   border: #2493eb;
   color: #ffffff;
   cursor: pointer;
+}
+
+.navigation__footer {
+  margin-top: 75px;
+  background-color: #21211d;
+  padding: 25px 0;
 }
 /*# sourceMappingURL=main.css.map */
