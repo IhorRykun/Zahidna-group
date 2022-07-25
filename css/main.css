@@ -1807,4 +1807,15 @@ img {
 .navigation-footer__svg:hover, .navigation-footer__svg:focus {
   fill: #2493eb;
 }
+
+.footer-socsety__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-socsety__item {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=main.css.map */
