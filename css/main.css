@@ -1794,9 +1794,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navigation-footer__svg {
@@ -1817,5 +1820,9 @@ img {
 
 .footer-socsety__item {
   margin-left: 10px;
+}
+
+.footer-socsety__svg {
+  fill: #ffffff60;
 }
 /*# sourceMappingURL=main.css.map */

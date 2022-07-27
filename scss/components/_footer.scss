@@ -189,9 +189,8 @@ color: #FFFFFF60;
     background-color:rgba(33, 33, 29, 1);
     padding: 25px 0;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
+    align-items:center;
+    justify-content: center;
 }
 
 .navigation-footer__svg {
@@ -211,4 +210,8 @@ color: #FFFFFF60;
 
 .footer-socsety__item {
     margin-left: 10px;
+}
+
+.footer-socsety__svg {
+    fill:#ffffff60;
 }
