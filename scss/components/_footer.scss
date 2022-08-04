@@ -189,7 +189,7 @@ color: #FFFFFF60;
     padding: 25px 0;
     display: flex;
     align-items:center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .navigation-footer__svg {
@@ -201,7 +201,16 @@ color: #FFFFFF60;
     }
     cursor: pointer;
 }
-
+.navigation-footer__list {
+    list-style: none;
+    display: flex;
+}
+.navigation-footer__item{
+    margin-left: 76px;
+    &:first-child{
+        margin-left: 0;
+    }
+}
 .footer-socsety__list {
     list-style: none;
     display: flex;
@@ -213,4 +222,18 @@ color: #FFFFFF60;
 
 .footer-socsety__svg {
     fill:#ffffff60;
+}
+.footer-socsety__link {
+    display: flex;
+    width:37px;
+    height: 37px;
+    border:1px solid #ffffff70;
+    border-radius:50%;
+    align-items:center;
+    justify-content: center;
+&:hover,
+&:focus{
+    border-color:#ffffff;
+    transform: scale(1.3);
+}
 }
