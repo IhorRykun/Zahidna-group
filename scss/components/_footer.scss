@@ -198,6 +198,7 @@ color: #FFFFFF60;
     &:hover,
     &:focus {
         fill: #2493eb;
+        transform: scale(1.3);
     }
     cursor: pointer;
 }
@@ -211,6 +212,26 @@ color: #FFFFFF60;
         margin-left: 0;
     }
 }
+
+.navigation-footer__link{
+    text-decoration: none;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+&:hover,
+&:focus {
+transform: scale(1.3);
+color:#2493eb;
+}
+
+}
 .footer-socsety__list {
     list-style: none;
     display: flex;
@@ -222,6 +243,7 @@ color: #FFFFFF60;
 
 .footer-socsety__svg {
     fill:#ffffff60;
+ 
 }
 .footer-socsety__link {
     display: flex;
@@ -235,5 +257,10 @@ color: #FFFFFF60;
 &:focus{
     border-color:#ffffff;
     transform: scale(1.3);
+    
+}
+&:hover .footer-socsety__svg,
+&:focus .footer-socsety__svg{
+    fill: #ffffff;
 }
 }
