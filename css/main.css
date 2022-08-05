@@ -1790,7 +1790,7 @@ img {
 }
 
 .navigation-footer__container {
-  margin-top: 75px;
+  margin-top: 73px;
   background-color: #21211d;
   padding: 25px 0;
   display: -webkit-box;
@@ -1891,5 +1891,16 @@ img {
 .footer-socsety__link:hover .footer-socsety__svg,
 .footer-socsety__link:focus .footer-socsety__svg {
   fill: #ffffff;
+}
+
+.footer-simbol__text {
+  padding: 14px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #F2F2F470;
+  text-align: center;
+  background-color: #000;
 }
 /*# sourceMappingURL=main.css.map */

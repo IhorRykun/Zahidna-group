@@ -184,7 +184,7 @@ color: #FFFFFF60;
 }
 
 .navigation-footer__container {
-    margin-top: 75px;
+    margin-top: 73px;
     background-color:rgba(33, 33, 29, 1);
     padding: 25px 0;
     display: flex;
@@ -269,4 +269,16 @@ color:#2493eb;
 &:focus .footer-socsety__svg{
     fill: #ffffff;
 }
+}
+
+.footer-simbol__text {
+ padding: 14px 0;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.67;
+color: #F2F2F470;
+
+   text-align: center;
+   background-color:#000;
 }
