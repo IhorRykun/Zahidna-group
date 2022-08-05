@@ -1796,19 +1796,21 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navigation-footer__svg {
   fill: #ffffff;
+  margin-left: 40px;
   cursor: pointer;
 }
 
 .navigation-footer__svg:hover, .navigation-footer__svg:focus {
   fill: #2493eb;
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(1.3, 1);
+          transform: scale(1.3, 1);
 }
 
 .navigation-footer__list {
@@ -1827,6 +1829,7 @@ img {
 }
 
 .navigation-footer__link {
+  display: block;
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -1848,9 +1851,11 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 36px;
 }
 
 .footer-socsety__item {
+  display: block;
   margin-left: 10px;
 }
 
