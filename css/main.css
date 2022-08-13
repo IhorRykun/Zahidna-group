@@ -261,6 +261,10 @@ summary {
   display: list-item;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
