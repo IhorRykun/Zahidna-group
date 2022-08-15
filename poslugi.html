@@ -1,53 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=P, initial-scale=1.0">
-  <link rel="stylesheet" href="./scss/main.scss">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/main.min.css">
+<link rel="shortcut icon" href="./img/logo/logo-blue.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
   <title>Poslugi</title>
 </head>
 
 <body>
-  <header>
+  <header class="header-hero">
     <!-- Голова сайту -->
-    <nav>
-      <a href="index.html">
-        <img src="./img/Logo.png" alt="logotip">
-      </a>
-      <nav>
-        <ul>
-          <li><a href="./">Про нас</a> </li>
-          <li><a href="./">Наші послуги</a></li>
-          <li><a href="./">Наші переваги</a></li>
-          <li><a href="#Контакти">Контакти</a></li>
-        </ul>
-      </nav>
-      <a href="mailto:zeg@gmail.com">zeg@gmail.com</a>
-      <a href="tel:+380674257107">+38 (067) - 425 - 71 - 07</a>
-    </nav>
-  </header>
-  <!-- Унікальний контент -->
-  <main>
-    <section>
+       <div class="header-container--flex">
+            <a href="./index.html"> <svg class="logo-svg" width="63" height="52">
+                    <use href="./img/symbol-defs.svg#logo-white"></use>
+                </svg></a>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#Про нас">Про нас</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="./poslugi.html">наші послуги</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#Наші переваги">Наші переваги</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#Контакти">Контакти</a></li>
+                </ul>
+            </nav>
+            <a class="navigation__item-link" href="tel:+38(067)-425-71-07">
+                <svg class="navigation__link--svg" width="15" height="21">
+                    <use href="./img/symbol-defs.svg#telephone"></use>
+                </svg>(067)-425-71-07</a>
+        </div>
       <h1>західна експертна група</h1>
       <h2>наші послуги</h2>
-      <ul>
-        <li>
-          <a href="https://www.instagram/" aria-label="instagram"></a></li>
-        <li>
-          <a href="https://twitter.com/" aria-label="twitter"></a></li>
-        </li>
-        <li>
-          <a href="https://www.skype.com/" aria-label="skype"></a></li>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/" aria-label="facebook"></a></li>
-        </li>
-      </ul>
-    </section>
-  </main>
+    
+   </header>
 
 </body>
 
