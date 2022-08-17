@@ -455,6 +455,31 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   width: 1920px;
+  padding-bottom: 125px;
+}
+
+.title__poslugy {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.50;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2493EB;
+  padding-top: 115px;
+  padding-left: 359px;
+}
+
+.title__poslugy-h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 359px;
+  padding-top: 10px;
 }
 
 .section-hero {
