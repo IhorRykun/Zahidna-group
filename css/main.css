@@ -482,6 +482,13 @@ img {
   padding-top: 10px;
 }
 
+.container-social-service {
+  list-style: none;
+  position: absolute;
+  right: 10px;
+  bottom: 140px;
+}
+
 .service-social__item {
   margin-bottom: 24px;
   margin-right: 38px;

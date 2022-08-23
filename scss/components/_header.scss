@@ -155,10 +155,12 @@ padding-top: 10px;
 
 // ?    соціальні мережі    
 
-// .hero-social__list {
-//   list-style: none;
-//   position: absolute;
-// }
+.container-social-service {
+  list-style: none;
+  position: absolute;
+  right: 10px;
+  bottom:140px;
+}
 
 .service-social__item {
   margin-bottom: 24px;
