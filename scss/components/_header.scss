@@ -158,8 +158,12 @@ padding-top: 10px;
 .container-social-service {
   list-style: none;
   position: absolute;
-  right: 10px;
-  bottom:140px;
+  right:-190px;
+  bottom:340px;
+}
+
+.service-social__list {
+    list-style: none;
 }
 
 .service-social__item {
@@ -170,7 +174,7 @@ padding-top: 10px;
   }
 }
 
-.service-sociale__link {
+.service-social__link {
   width: 37px;
   height: 37px;
   border-radius: 50px;

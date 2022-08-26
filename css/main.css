@@ -485,8 +485,12 @@ img {
 .container-social-service {
   list-style: none;
   position: absolute;
-  right: 10px;
-  bottom: 140px;
+  right: -190px;
+  bottom: 340px;
+}
+
+.service-social__list {
+  list-style: none;
 }
 
 .service-social__item {
@@ -498,7 +502,7 @@ img {
   margin-bottom: 0;
 }
 
-.service-sociale__link {
+.service-social__link {
   width: 37px;
   height: 37px;
   border-radius: 50px;
@@ -515,14 +519,14 @@ img {
           justify-content: center;
 }
 
-.service-sociale__link:focus, .service-sociale__link:hover {
+.service-social__link:focus, .service-social__link:hover {
   border-color: #FFFFFF;
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
 
-.service-sociale__link:focus .hero-social__svg,
-.service-sociale__link:hover .hero-social__svg {
+.service-social__link:focus .hero-social__svg,
+.service-social__link:hover .hero-social__svg {
   fill: #FFFFFF;
 }
 
