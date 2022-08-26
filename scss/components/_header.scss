@@ -14,8 +14,8 @@
   display: flex;
  align-items:center;
  justify-content: space-around;
-border-bottom: 1px solid rgba(0, 0, 0, 0.02);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+// border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+// box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 
 .logo-svg {
@@ -32,7 +32,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
   }
   
 }
-
 .navigation__list {
   list-style: none;
   display: flex;
@@ -50,6 +49,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 .navigation__item--telephone {
   margin-left: auto;
 }
+
 .navigation__item-link {
   display: flex;
   font-style: normal;

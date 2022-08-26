@@ -339,9 +339,6 @@ img {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 
 .logo-svg {
@@ -539,6 +536,9 @@ img {
   padding-top: 126px;
   padding-bottom: 153px;
   padding-left: 357px;
+  border-top: 4px solid rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 
 .container--flex {
