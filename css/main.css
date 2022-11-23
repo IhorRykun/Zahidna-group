@@ -797,7 +797,7 @@ img {
           transform: rotate(-90deg);
 }
 
-.container__hero-poslugy {
+.container__hero-services {
   width: 1205px;
   padding: 100px;
   margin: 0 auto;
@@ -813,7 +813,7 @@ img {
   margin: 0 15px;
 }
 
-.hero__poslugy--title {
+.hero__services--title {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -822,7 +822,7 @@ img {
   margin-top: 75px;
 }
 
-.list__poslugi-expertize {
+.list__services-expertize {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
