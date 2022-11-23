@@ -852,6 +852,10 @@ img {
   display: flex;
 }
 
+.current {
+  color: #2493eb;
+}
+
 .service {
   padding: 100px 0;
   background-color: #F2F2F4;
