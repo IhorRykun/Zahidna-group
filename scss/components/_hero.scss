@@ -4,8 +4,7 @@
   padding-bottom: 153px;
   padding-left: 357px;
   border-top: 4px solid rgba(0, 0, 0, 0.07);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
-
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 .container--flex {
   display: flex;
@@ -13,53 +12,53 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 
 .section-hero__title-h1 {
- font-weight: 800;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-color: #2493EB;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2493eb;
 }
 
 .section-hero__title-h2 {
-font-weight: 800;
-font-size: 50px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-transform: uppercase;
-color: #FFFFFF;
-width: 100%;
-max-width: 503px;
-margin-bottom: 37px;
-margin-top: 17px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+  max-width: 503px;
+  margin-bottom: 37px;
+  margin-top: 17px;
 }
 
 .section-hero__list {
   display: flex;
   flex-wrap: wrap;
-margin-left: 95px;
-width: 588px;
+  margin-left: 95px;
+  width: 588px;
 }
 
 .section-hero__item {
-font-weight: 700;
-font-size: 18px;
-line-height: 1.33;
-color:#2493EB;
-width: 271px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #2493eb;
+  width: 271px;
 
-&:last-child{
-  margin-top: -51px;
-}
+  &:last-child {
+    margin-top: -51px;
+  }
 }
 
 .section-hero__item--absolute {
- width: 216px;
- margin-left: 61px;
+  width: 216px;
+  margin-left: 61px;
 }
 
 .section-hero__item-text {
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
 .navigation__link {
@@ -71,216 +70,238 @@ width: 271px;
 .section-hero__button {
   position: relative;
   width: 336px;
-  height:60px;
+  height: 60px;
   cursor: pointer;
 
-font-weight: 600;
-font-size: 14px;
-line-height: 1.50;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 
-color: #FFFFFF;
-background-color: transparent;
+  color: #ffffff;
+  background-color: transparent;
 
-border: 1px solid #2493EB;
-filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
+  border: 1px solid #2493eb;
+  filter: drop-shadow(0px 30px 80px rgba(41, 87, 182, 0.3));
 
-&:hover,
-&:focus {
-  background-color:#2493EB;
-
+  &:hover,
+  &:focus {
+    background-color: #2493eb;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 28px;
+    right: -35px;
+    display: block;
+    width: 53px;
+    height: 1px;
+    background: #2493eb;
+  }
 }
-&::after{
-  content:"";
-  position: absolute;
-  top:28px;
-  right: -35px;
-  display: block;
-  width: 53px;
-height: 1px;
-background: #2493EB;
-}
-}
 
-// соціальні мережі героя
+// !    соціальні мережі героя
 .hero-social__list {
   list-style: none;
   position: absolute;
-  bottom:49px;
+  bottom: 49px;
   right: 38px;
 }
 
 .hero-social__item {
   margin-bottom: 24px;
   margin-right: 38px;
-  &:last-child{
+  &:last-child {
     margin-bottom: 0;
   }
 }
-
 
 .hero-social__link {
   width: 37px;
   height: 37px;
   border-radius: 50px;
-  border:1px solid #ffffff30;
+  border: 1px solid #ffffff30;
   display: block;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  &:focus,&:hover {
-    border-color:#FFFFFF;
+  &:focus,
+  &:hover {
+    border-color: #ffffff;
     transform: scale(1.3);
   }
   &:focus .hero-social__svg,
   &:hover .hero-social__svg {
-    fill: #FFFFFF;
+    fill: #ffffff;
   }
 }
 
 .hero-social__svg {
-  fill:#ffffff70;
+  fill: #ffffff70;
 }
 
-// декорація героя
+//!  декорація героя
 
 .hero--decoration {
   font-family: 'Montserrat';
-    font-style: normal;
+  font-style: normal;
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  bottom:149px;
-  left:38px;
+  bottom: 149px;
+  left: 38px;
   transform: rotate(270deg);
 }
 .hero-text--decoration {
   display: flex;
-  align-items:center;
+  align-items: center;
   font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 13px;
-letter-spacing: 0.02em;
-text-transform: uppercase;
-color:#ffffff70;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff70;
 }
 
 .hero-text--decoration::before {
-  content:"";
+  content: '';
   display: block;
   width: 70px;
-height: 1px;
-background: #FFFFFF;
-opacity: 0.5;
-margin: 0 15px;
+  height: 1px;
+  background: #ffffff;
+  opacity: 0.5;
+  margin: 0 15px;
 }
 
 .hero--decoration--svg {
-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
-// секція про нас
+// !    секція про нас
 .about {
-  padding-top:100px;
-  background-color:#FFFFFF;
+  padding-top: 100px;
+  background-color: #ffffff;
   width: 1500px;
   position: relative;
 }
 .about--flex {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 .about-container--text {
-width: 598px;
-margin-right: 198px;
-position: relative;
+  width: 598px;
+  margin-right: 198px;
+  position: relative;
 }
 .about__title {
- font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.50;
-letter-spacing: 0.05em;
-text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 
-color: #2493EB;
-
+  color: #2493eb;
 }
 
 .about__title--h3 {
   font-weight: 800;
-font-size: 45px;
-line-height: 1.22;
-text-transform: uppercase;
-color: #2E2E26;
-margin-top: 10px;
-margin-bottom: 37px;
+  font-size: 45px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: #2e2e26;
+  margin-top: 10px;
+  margin-bottom: 37px;
 }
 
 .about__title--h4 {
   font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.50;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
 
-color: #2E2E26;
-margin-bottom: 37px;
+  color: #2e2e26;
+  margin-bottom: 37px;
 }
 
 .about__text--paragraph {
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.50;
-color: #2E2E26;
-margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2e26;
+  margin-left: 20px;
 }
 
 .about__text-h5 {
   margin-top: 48px;
   margin-left: 55px;
 
-font-weight: 400;
-font-size: 18px;
-line-height: 1.50;
-letter-spacing: 0.01em;
-text-transform: uppercase;
-color: #2E2E26;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #2e2e26;
 }
 .about__text-h5--strike {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
 
-font-weight: 700;
-font-size: 18px;
-line-height: 1.50;
-letter-spacing: 0.01em;
-text-transform: uppercase;
-
-color: #2E2E26
+  color: #2e2e26;
 }
 
 .about__text-h5--svg {
-position: absolute; 
-bottom:170px;
-left: 0;
+  position: absolute;
+  bottom: 170px;
+  left: 0;
 }
 
 .about__text-h6 {
-position: absolute;
-top:180px;
-left: -370px;
+  position: absolute;
+  top: 180px;
+  left: -370px;
 
   font-style: normal;
-font-weight: 800;
-font-size: 140px;
-line-height: 2.36;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 2.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-opacity: 0.15;
-text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
-transform: rotate(-90deg);
+  opacity: 0.15;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  transform: rotate(-90deg);
+}
+
+// !         Сторінка наші послуги
+.container__hero-poslugy {
+  width: 1205px;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+// !    Список лінків героя
+
+.hero__list-link {
+  display: flex;
+}
+
+.hero__list-link--span {
+  margin: 0 15px;
+}
+.hero__poslugy--title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.17;
+  color: #2e2e26;
+  margin-top: 75px;
 }
