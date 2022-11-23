@@ -822,6 +822,14 @@ img {
   margin-top: 75px;
 }
 
+.list__poslugi-expertize {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2e26;
+}
+
 .service {
   padding: 100px 0;
   background-color: #F2F2F4;
