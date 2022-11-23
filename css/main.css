@@ -807,6 +807,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
 }
 
 .hero__list-link--span {
@@ -828,6 +829,16 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2e26;
+}
+
+.hero__service-img {
+  width: 447px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .service {
