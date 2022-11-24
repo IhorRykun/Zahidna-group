@@ -780,7 +780,7 @@ img {
 
 .about__text-h5--svg {
   position: absolute;
-  bottom: 125px;
+  bottom: 135px;
   left: 3px;
 }
 
@@ -1816,6 +1816,8 @@ img {
   color: #ffffff;
   height: 28px;
   background-color: transparent;
+  outline: none;
+  border: none;
 }
 
 .contacts-form__text {
@@ -1940,7 +1942,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .navigation-footer__link:hover, .navigation-footer__link:focus {
   -webkit-transform: scale(1.3);
