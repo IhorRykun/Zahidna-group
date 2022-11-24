@@ -780,8 +780,8 @@ img {
 
 .about__text-h5--svg {
   position: absolute;
-  bottom: 170px;
-  left: 0;
+  bottom: 125px;
+  left: 3px;
 }
 
 .about__text-h6 {
@@ -1342,6 +1342,7 @@ img {
   color: #ffffff;
   margin-left: 40px;
   width: 240px;
+  outline: none;
 }
 .help__input:last-child {
   margin-right: 0;
