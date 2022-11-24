@@ -184,7 +184,6 @@
 .about {
   padding-top: 100px;
   background-color: #ffffff;
-  width: 1500px;
   position: relative;
 }
 .about--flex {
@@ -256,6 +255,10 @@
 
   color: #2e2e26;
 }
+.about__img {
+  width: 567px;
+  height: 637px;
+}
 
 .about__text-h5--svg {
   position: absolute;
@@ -265,8 +268,8 @@
 
 .about__text-h6 {
   position: absolute;
-  top: 180px;
-  left: -370px;
+  top: 200px;
+  left: -490px;
 
   font-style: normal;
   font-weight: 800;
