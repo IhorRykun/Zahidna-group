@@ -856,6 +856,10 @@ img {
   color: #2493eb;
 }
 
+.font__color--black {
+  color: #2e2e26;
+}
+
 .service {
   padding: 100px 0;
   background-color: #F2F2F4;
