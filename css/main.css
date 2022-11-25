@@ -826,6 +826,12 @@ img {
   line-height: 1.17;
   color: #2e2e26;
   margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .service__text {
@@ -910,6 +916,17 @@ img {
   margin-right: 361px;
   gap: 103px;
   list-style: none;
+}
+
+.service__span-number {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 1.82px;
+  text-transform: uppercase;
+  color: #2493eb;
+  opacity: 0.1;
+  margin-right: -20px;
 }
 
 .service__img {

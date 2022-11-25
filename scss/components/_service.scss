@@ -40,6 +40,19 @@
   list-style: none;
 }
 
+.service__span-number {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 1.82px;
+
+  text-transform: uppercase;
+
+  color: #2493eb;
+  opacity: 0.1;
+  margin-right: -20px;
+}
+
 .service__img {
   width: 310px;
   display: block;
