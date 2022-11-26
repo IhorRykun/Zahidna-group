@@ -868,6 +868,10 @@ img {
   margin: 10px 0;
 }
 
+.list__service-expertize--span {
+  color: #2e2e26;
+}
+
 .hero__service-img {
   width: 447px;
   margin-top: 100px;
