@@ -841,7 +841,11 @@ img {
   line-height: 1.5;
   color: #2e2e26;
   margin-top: 30px;
-  padding-right: 71px;
+  width: 682px;
+}
+
+.expertize {
+  width: 1920px;
 }
 
 .list__services-expertize {
@@ -849,7 +853,10 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2e26;
+  color: #2493eb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hero__service-img {
@@ -869,6 +876,23 @@ img {
 
 .font__color--black {
   color: #2e2e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+}
+
+.text__span--blue {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5px;
+  color: #2493eb;
+}
+
+.container-expertize--left {
+  width: 683px;
+  margin-right: 71px;
 }
 
 .service {
