@@ -335,6 +335,11 @@
   line-height: 1.5;
   color: #2493eb;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 88px;
+  padding-left: 20px;
+  margin: 10px 0;
 }
 .hero__service-img {
   width: 447px;
