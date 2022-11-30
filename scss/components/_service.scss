@@ -282,20 +282,10 @@
 }
 
 .text__location {
-  display: flex;
-  align-items: center;
-}
-.text__date {
-  display: flex;
+  display:inline-flex;
   align-items: center;
 }
 
 .svg__location {
   margin-right: 17px;
-}
-.text--black {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #2e2e26;
 }
