@@ -304,6 +304,11 @@
   object-fit: cover;
 }
 
+.designing__block--title {
+    display: flex;
+    align-items:center;
+}
+
 .designing__block--span {
   color: #2b2b2b;
 }
