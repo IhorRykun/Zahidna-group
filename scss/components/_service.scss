@@ -297,4 +297,9 @@
 .container__designing {
   margin: 0 auto;
   width: 1200px;
+  display: flex;
+}
+.container__designing__img {
+  margin-right: 71px;
+  object-fit: cover;
 }

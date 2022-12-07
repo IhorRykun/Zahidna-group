@@ -1220,6 +1220,15 @@ img {
 .container__designing {
   margin: 0 auto;
   width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__designing__img {
+  margin-right: 71px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @-webkit-keyframes heartbeat {
