@@ -1231,6 +1231,14 @@ img {
      object-fit: cover;
 }
 
+.designing__block--span {
+  color: #2b2b2b;
+}
+
+.designing__block--item {
+  color: #2493eb;
+}
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
