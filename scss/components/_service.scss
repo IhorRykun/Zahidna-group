@@ -282,10 +282,19 @@
 }
 
 .text__location {
-  display:inline-flex;
+  display: inline-flex;
   align-items: center;
 }
 
 .svg__location {
   margin-right: 17px;
+}
+
+.section__designing {
+  width: 1920px;
+  background: #f2f2f4;
+}
+.container__designing {
+  margin: 0 auto;
+  width: 1200px;
 }

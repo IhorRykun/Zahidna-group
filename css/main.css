@@ -1212,6 +1212,16 @@ img {
   margin-right: 17px;
 }
 
+.section__designing {
+  width: 1920px;
+  background: #f2f2f4;
+}
+
+.container__designing {
+  margin: 0 auto;
+  width: 1200px;
+}
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
