@@ -1,114 +1,115 @@
 .help {
- background-image: url(../img/help/help.jpg);
- background-size: cover;
- background-repeat: no-repeat;
- display: flex;
- justify-content: center;
+  background-image: url(../img/help/help.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 1920px;
 }
 
 .help__title {
- font-weight: 800;
- font-size: 45px;
- line-height: 1.22;
- text-transform: uppercase;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.22;
+  text-transform: uppercase;
 
- color: #ffffff;
+  color: #ffffff;
 
- width: 390px;
- padding: 100px 0;
+  width: 390px;
+  padding: 100px 0;
 }
 
 .help__form {
- width: 600px;
- margin-left: 206px;
- background-color: #00000060;
- padding-top: 100px;
- position: relative;
+  width: 600px;
+  margin-left: 206px;
+  background-color: #00000060;
+  padding-top: 100px;
+  position: relative;
 }
 
 .help__title--h3 {
- font-weight: 700;
- font-size: 18px;
- line-height: 1.5;
- margin-left: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 40px;
 
- text-transform: uppercase;
- color: #ffffff;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .help__text {
- font-style: normal;
+  font-style: normal;
 
- font-weight: 400;
- font-size: 16px;
- line-height: 1.38;
- margin-left: 40px;
- margin-top: 10px;
- margin-bottom: 31px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.38;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 31px;
 
- color: #ffffff;
+  color: #ffffff;
 }
 
 .help__lable {
- margin-left: 40px;
- font-weight: 400;
- font-size: 14px;
- line-height: 1.57;
- color: #ffffff70;
- position: absolute;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #ffffff70;
+  position: absolute;
 }
 
 .help__input {
- background-color: transparent;
- border: none;
- border-bottom: 1px solid #ffffff70;
- height: 28px;
- color: #ffffff;
- margin-left: 40px;
- width: 240px;
- &:last-child {
-  margin-right: 0;
- }
- outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff70;
+  height: 28px;
+  color: #ffffff;
+  margin-left: 40px;
+  width: 240px;
+  &:last-child {
+    margin-right: 0;
+  }
+  outline: none;
 }
 
 .form-checkbox {
- display: flex;
- align-items: center;
- justify-content: flex-start;
- margin-top: 30px;
- margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 40px;
 }
 .form-checkbox__input {
- width: 25px;
- height: 25px;
- margin-right: 18px;
+  width: 25px;
+  height: 25px;
+  margin-right: 18px;
 }
 
 .form-checkbox__leble {
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 1.5;
- color: #ffffff70;
- width: 220px;
- height: 42px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff70;
+  width: 220px;
+  height: 42px;
 }
 
 .help__button {
- font-weight: 600;
- font-size: 14px;
- line-height: 1.5;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
 
- text-align: center;
- letter-spacing: 0.02em;
- text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 
- color: #ffffff;
- width: 241px;
- height: 60px;
- margin-left: 20px;
- background-color: #2493eb;
- border: #2493eb;
- cursor: pointer;
+  color: #ffffff;
+  width: 241px;
+  height: 60px;
+  margin-left: 20px;
+  background-color: #2493eb;
+  border: #2493eb;
+  cursor: pointer;
 }
