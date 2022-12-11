@@ -302,6 +302,8 @@
 }
 .container__designing__img {
   margin-right: 71px;
+  width: 447px;
+  height: 612px;
   object-fit: cover;
 }
 
@@ -309,6 +311,15 @@
   display: flex;
   align-items: center;
   margin-bottom: 38px;
+}
+
+.text__proekt--blue {
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33px;
+  color: #2493eb;
 }
 
 .designing__block--span {
@@ -341,7 +352,6 @@
   margin-top: 38px;
   margin-right: 70px;
 }
-
 
 .inspection-container__list--span {
   font-style: normal;
