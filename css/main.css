@@ -422,6 +422,7 @@ img {
   background-repeat: no-repeat;
   width: 1920px;
   padding-bottom: 175px;
+  position: relative;
 }
 
 .title__poslugy {
@@ -451,8 +452,8 @@ img {
 .container-social-service {
   list-style: none;
   position: absolute;
-  right: -190px;
-  bottom: 340px;
+  right: 20px;
+  bottom: 40px;
 }
 
 .service-social__list {
