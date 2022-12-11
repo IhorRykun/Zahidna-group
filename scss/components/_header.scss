@@ -1,36 +1,35 @@
 // хедер сторінки
 .header {
-  background-image:url(../img/hero/hero.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-image: url(../img/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 1920px;
 }
 .header-container--flex {
   display: flex;
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
 }
 .navigation {
   display: flex;
- align-items:center;
- justify-content: space-around;
-// border-bottom: 1px solid rgba(0, 0, 0, 0.02);
-// box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  align-items: center;
+  justify-content: space-around;
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 
 .logo-svg {
   margin-top: 18px;
   margin-bottom: 12px;
-  fill: #FFFFFF;
+  fill: #ffffff;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 40px;
   &:hover,
-  &:focus{
-    fill:#2493EB;
+  &:focus {
+    fill: #2493eb;
     transform: scalex(1.2);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
 }
 .navigation__list {
   list-style: none;
@@ -42,7 +41,7 @@
   margin-right: 76px;
 
   &:last-child {
-    margin-right:0;
+    margin-right: 0;
   }
 }
 
@@ -53,125 +52,121 @@
 .navigation__item-link {
   display: flex;
   font-style: normal;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color:#FFFFFF;
-border: 2px solid #2493EB;
-width: 200px;
-height: 50px;
-animation:heartbeat 0.7s infinite;
-margin-right: 36px;
+  color: #ffffff;
+  border: 2px solid #2493eb;
+  width: 200px;
+  height: 50px;
+  animation: heartbeat 0.7s infinite;
+  margin-right: 36px;
 
-
-&:hover,
-&:focus {
-  background-color: #2493EB;
-  color:#FFFFFF;
-border-color: #2493EB ;
-}
-&::after{
-  content:"";
-  position: absolute;
-  top:21px;
-  right: -22px;
-  display: block;
-  width: 33px;
-height: 1px;
-background: #2493EB;}
+  &:hover,
+  &:focus {
+    background-color: #2493eb;
+    color: #ffffff;
+    border-color: #2493eb;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    right: -22px;
+    display: block;
+    width: 33px;
+    height: 1px;
+    background: #2493eb;
+  }
 }
 
 .navigation__link--svg {
   margin-right: 9px;
- 
 }
 
 .navigation__link {
   display: block;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color:#FFFFFF;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-&:focus,
-&:hover {
-  color:#2493EB;
+  color: #ffffff;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(1.3);
-}
-}
 
+  &:focus,
+  &:hover {
+    color: #2493eb;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1.3);
+  }
+}
 
 // !    Сторінка наші послуги
 
 .header-hero {
-    background-image:url(../img/hero/hero_service.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    width: 1920px;
-    padding-bottom: 175px;
-
+  background-image: url(../img/hero/hero_service.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1920px;
+  padding-bottom: 175px;
 }
 
 .title__poslugy {
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.50;
-letter-spacing: 0.05em;
-text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 
-color: #2493EB;
+  color: #2493eb;
 
-padding-top: 115px;
-padding-left: 359px;
+  padding-top: 115px;
+  padding-left: 359px;
 }
 
 .title__poslugy-h2 {
-font-style: normal;
-font-weight: 800;
-font-size: 45px;
-line-height: 1.22;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.22;
 
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 
-letter-spacing: 0.02em;
-text-transform: uppercase;
+  color: #ffffff;
 
-color: #FFFFFF;
-
-padding-left: 359px;
-padding-top: 10px;
+  padding-left: 359px;
+  padding-top: 10px;
 }
 
-// ?    соціальні мережі    
+// ?    соціальні мережі
 
 .container-social-service {
   list-style: none;
   position: absolute;
-  right:-190px;
-  bottom:340px;
+  right: -190px;
+  bottom: 340px;
 }
 
 .service-social__list {
-    list-style: none;
+  list-style: none;
 }
 
 .service-social__item {
   margin-bottom: 24px;
   margin-right: 38px;
-  &:last-child{
+  &:last-child {
     margin-bottom: 0;
   }
 }
@@ -180,24 +175,22 @@ padding-top: 10px;
   width: 37px;
   height: 37px;
   border-radius: 50px;
-  border:1px solid #ffffff30;
+  border: 1px solid #ffffff30;
   display: block;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  &:focus,&:hover {
-    border-color:#FFFFFF;
+  &:focus,
+  &:hover {
+    border-color: #ffffff;
     transform: scale(1.3);
   }
   &:focus .hero-social__svg,
   &:hover .hero-social__svg {
-    fill: #FFFFFF;
+    fill: #ffffff;
   }
 }
 
 .service-social__svg {
-  fill:#ffffff70;
+  fill: #ffffff70;
 }
-
-
-
