@@ -1,6 +1,7 @@
 .benefits {
-  padding:100px 0;
+  padding: 100px 0;
   position: relative;
+  width: 1920px;
 }
 
 .benefit-container {
@@ -11,18 +12,18 @@
 }
 
 .benefits__h2 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.50;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 
-    color: #2493EB;
+  color: #2493eb;
 }
 
 .benefits__h3 {
-font-style: normal;
+  font-style: normal;
   font-weight: 800;
   font-size: 45px;
   line-height: 1.22;
@@ -31,7 +32,7 @@ font-style: normal;
   text-align: center;
   text-transform: uppercase;
 
-  color: #2E2E26;
+  color: #2e2e26;
 }
 
 .benefits__list {
@@ -42,15 +43,15 @@ font-style: normal;
 
 .benefits__item {
   position: relative;
-  background-color:#FCFCFC;
+  background-color: #fcfcfc;
   display: block;
-  padding-top:30px;
+  padding-top: 30px;
   padding-bottom: 69px;
-margin: 20px;
-flex-basis: calc((100% - 2 * 60px) / 3);
-&:nth-child(n+4) {
-  margin-bottom: 0;
-}
+  margin: 20px;
+  flex-basis: calc((100% - 2 * 60px) / 3);
+  &:nth-child(n + 4) {
+    margin-bottom: 0;
+  }
 }
 
 .benefits__svg {
@@ -60,17 +61,17 @@ flex-basis: calc((100% - 2 * 60px) / 3);
 
 .decoration--befor01::after {
   position: absolute;
-  top:25px;
-  right:35px;
-  content:'01';
+  top: 25px;
+  right: 35px;
+  content: '01';
   display: block;
 
   font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.31;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
 
-    color: #2493EB;
+  color: #2493eb;
 }
 .decoration--befor02::after {
   position: absolute;
@@ -84,7 +85,7 @@ flex-basis: calc((100% - 2 * 60px) / 3);
   font-size: 16px;
   line-height: 1.31;
 
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .decoration--befor03::after {
@@ -99,7 +100,7 @@ flex-basis: calc((100% - 2 * 60px) / 3);
   font-size: 16px;
   line-height: 1.31;
 
-  color: #2493EB;
+  color: #2493eb;
 }
 .decoration--befor04::after {
   position: absolute;
@@ -113,7 +114,7 @@ flex-basis: calc((100% - 2 * 60px) / 3);
   font-size: 16px;
   line-height: 1.31;
 
-  color: #2493EB;
+  color: #2493eb;
 }
 .decoration--befor05::after {
   position: absolute;
@@ -127,7 +128,7 @@ flex-basis: calc((100% - 2 * 60px) / 3);
   font-size: 16px;
   line-height: 1.31;
 
-  color: #2493EB;
+  color: #2493eb;
 }
 .decoration--befor06::after {
   position: absolute;
@@ -141,53 +142,52 @@ flex-basis: calc((100% - 2 * 60px) / 3);
   font-size: 16px;
   line-height: 1.31;
 
-  color: #2493EB;
+  color: #2493eb;
 }
 .benefits__h4 {
   font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
-    margin-left: 47px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  margin-left: 47px;
 
-  
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-  
-    color: #252525;
-    margin-bottom: 15px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #252525;
+  margin-bottom: 15px;
 }
 
-.benefits__h4::before{
-  content:"";
+.benefits__h4::before {
+  content: '';
   display: block;
   width: 4px;
   height: 4px;
-  background-color:#2493EB;
-margin-left: -6px;
+  background-color: #2493eb;
+  margin-left: -6px;
 }
 
 .benefits__text {
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
-    color: #252525;
-    margin-left: 47px;
-    width: 279px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #252525;
+  margin-left: 47px;
+  width: 279px;
 }
 
 .benefits__button {
   position: relative;
-font-style: normal;
+  font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  line-height: 1.50;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  background-color:#fff;
-  color: #2E2E26;
-  border:1px solid #2493EB;
+  background-color: #fff;
+  color: #2e2e26;
+  border: 1px solid #2493eb;
 
   width: 300px;
   height: 60px;
@@ -195,21 +195,20 @@ font-style: normal;
   cursor: pointer;
   &:hover,
   &:focus {
-    background-color:#2493EB;
-    color:#fff;
+    background-color: #2493eb;
+    color: #fff;
   }
-
 }
 
 .benefits__button::after {
   position: absolute;
-  top:30px;
+  top: 30px;
   right: -35px;
-  content:'';
+  content: '';
   display: block;
   width: 53px;
-    height: 1px;
-    background-color:#2493EB;
+  height: 1px;
+  background-color: #2493eb;
 }
 
 .benefits-button__container {
@@ -223,34 +222,34 @@ font-style: normal;
 }
 .benefits__item--decor90reg {
   position: absolute;
-    top: 350px;
-    left: -320px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 140px;
-    line-height: 2.36;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    opacity: 0.15;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
-    transform: rotate(-90deg);
+  top: 350px;
+  left: -320px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 2.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  opacity: 0.15;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  transform: rotate(-90deg);
 }
 
 .benefits__item--decor180reg {
   position: absolute;
-    top: 350px;
-    right: -300px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 140px;
-    line-height: 2.36;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    opacity: 0.15;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
-    transform: rotate(-270deg);
-    }
+  top: 350px;
+  right: -300px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 2.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  opacity: 0.15;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  transform: rotate(-270deg);
+}

@@ -496,10 +496,6 @@ img {
   fill: rgba(255, 255, 255, 0.4392156863);
 }
 
-.main {
-  width: 1920px;
-}
-
 .section-hero {
   position: relative;
   padding-top: 126px;
@@ -703,6 +699,7 @@ img {
   padding-top: 100px;
   background-color: #ffffff;
   position: relative;
+  width: 1920px;
 }
 
 .about--flex {
@@ -917,6 +914,7 @@ img {
   padding: 100px 0;
   background-color: #f2f2f4;
   position: relative;
+  width: 1920px;
 }
 
 .service__title--h2 {
@@ -1508,6 +1506,7 @@ img {
 .benefits {
   padding: 100px 0;
   position: relative;
+  width: 1920px;
 }
 
 .benefit-container {
@@ -1524,7 +1523,7 @@ img {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .benefits__h3 {
@@ -1535,7 +1534,7 @@ img {
   margin-bottom: 50px;
   text-align: center;
   text-transform: uppercase;
-  color: #2E2E26;
+  color: #2e2e26;
 }
 
 .benefits__list {
@@ -1549,7 +1548,7 @@ img {
 
 .benefits__item {
   position: relative;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   display: block;
   padding-top: 30px;
   padding-bottom: 69px;
@@ -1576,7 +1575,7 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.31;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .decoration--befor02::after {
@@ -1589,7 +1588,7 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.31;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .decoration--befor03::after {
@@ -1602,7 +1601,7 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.31;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .decoration--befor04::after {
@@ -1615,7 +1614,7 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.31;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .decoration--befor05::after {
@@ -1628,7 +1627,7 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.31;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .decoration--befor06::after {
@@ -1641,7 +1640,7 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.31;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .benefits__h4 {
@@ -1661,7 +1660,7 @@ img {
   display: block;
   width: 4px;
   height: 4px;
-  background-color: #2493EB;
+  background-color: #2493eb;
   margin-left: -6px;
 }
 
@@ -1684,15 +1683,15 @@ img {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   background-color: #fff;
-  color: #2E2E26;
-  border: 1px solid #2493EB;
+  color: #2e2e26;
+  border: 1px solid #2493eb;
   width: 300px;
   height: 60px;
   margin-top: 50px;
   cursor: pointer;
 }
 .benefits__button:hover, .benefits__button:focus {
-  background-color: #2493EB;
+  background-color: #2493eb;
   color: #fff;
 }
 
@@ -1704,7 +1703,7 @@ img {
   display: block;
   width: 53px;
   height: 1px;
-  background-color: #2493EB;
+  background-color: #2493eb;
 }
 
 .benefits-button__container {
@@ -1758,8 +1757,9 @@ img {
 }
 
 .clients {
-  background-color: #F2F2F4;
+  background-color: #f2f2f4;
   padding: 100px 0;
+  width: 1920px;
 }
 
 .clients-container {
@@ -1777,7 +1777,7 @@ img {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #2493EB;
+  color: #2493eb;
 }
 
 .clients-title-h3 {
@@ -1789,7 +1789,7 @@ img {
   margin-bottom: 50px;
   text-align: center;
   text-transform: uppercase;
-  color: #2E2E26;
+  color: #2e2e26;
 }
 
 .clients__list {
