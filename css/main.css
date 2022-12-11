@@ -1253,6 +1253,59 @@ img {
   color: #2493eb;
 }
 
+.inspection {
+  width: 1920px;
+  padding: 100px 0;
+}
+
+.inspection-container {
+  width: 1200px;
+  color: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inspection-container__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inspection-container__list {
+  color: #2493eb;
+  margin-top: 38px;
+  margin-right: 70px;
+}
+
+.inspection-container__list--span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.38px;
+  color: #2e2e26;
+}
+
+.inspection-container__list--span--black {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.38px;
+  color: #2e2e26;
+}
+
+.inspection__img {
+  width: 447px;
+  height: 284px;
+}
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
