@@ -1245,11 +1245,10 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 38px;
+  margin-bottom: 58px;
 }
 
 .text__proekt--blue {
-  margin-bottom: 15px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1261,7 +1260,19 @@ img {
   color: #2b2b2b;
 }
 
+.designing__block__list {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 18px;
+}
+
 .designing__block--item {
+  color: #2493eb;
+}
+
+.designing__block__sps__list {
+  margin-top: 15px;
+  margin-left: 18px;
   color: #2493eb;
 }
 
@@ -1295,6 +1306,7 @@ img {
   color: #2493eb;
   margin-top: 38px;
   margin-right: 70px;
+  margin-left: 18px;
 }
 
 .inspection-container__list--span {
