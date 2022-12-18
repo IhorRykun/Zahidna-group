@@ -1348,6 +1348,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #2b2b2b;
 }
 
 .construction__img {
