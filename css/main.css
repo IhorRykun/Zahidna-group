@@ -1246,6 +1246,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 58px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .text__proekt--blue {
@@ -1300,6 +1303,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .inspection-container__list {
@@ -1339,6 +1345,15 @@ img {
 .construction__block {
   width: 1200px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.construction__img {
+  margin-right: 59px;
+  width: 447px;
+  height: 612px;
 }
 
 @-webkit-keyframes heartbeat {

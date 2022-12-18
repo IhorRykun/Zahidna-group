@@ -311,6 +311,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 58px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .text__proekt--blue {
@@ -354,6 +357,9 @@
 .inspection-container__text {
   display: flex;
   align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
 }
 .inspection-container__list {
   color: #2493eb;
@@ -391,4 +397,10 @@
 .construction__block {
   width: 1200px;
   margin: 0 auto;
+  display: flex;
+}
+.construction__img {
+  margin-right: 59px;
+  width: 447px;
+  height: 612px;
 }
