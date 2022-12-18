@@ -1357,6 +1357,21 @@ img {
   height: 612px;
 }
 
+.advice {
+  width: 1920px;
+  background: #fff;
+  padding: 100px 0;
+}
+
+.advice__block {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2b2b2b;
+}
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
