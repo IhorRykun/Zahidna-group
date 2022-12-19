@@ -1931,6 +1931,7 @@ img {
 
 .clients__list {
   padding: 41px 10px;
+  padding-left: 65px;
 }
 
 .clients__img {
