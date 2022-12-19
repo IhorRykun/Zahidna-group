@@ -417,15 +417,16 @@
   color: #2b2b2b;
 }
 
-.swiper {
+.mySwiper {
   width: 1200px;
   background-color: #fff;
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 41px 0;
 }
 
+.swiper {
+  margin-left: 100px;
+}
 
 .swiper-button-next:hover {
   color: #2b2b2b;
