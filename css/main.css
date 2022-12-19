@@ -1389,6 +1389,10 @@ img {
   color: #2b2b2b;
 }
 
+.swiper-button-prev:hover {
+  color: #2b2b2b;
+}
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
