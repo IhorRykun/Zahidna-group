@@ -38,21 +38,16 @@
 }
 
 .clients__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #fff;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 41px 10px;
 }
 
-.clients__item {
-  margin: 41px 0;
-  margin-left: 41px;
-}
+// .clients__item {
+//   margin: 41px 0;
+//   margin-left: 41px;
+// }
 
 .clients__img {
   width: 150px;
+  margin: 0;
+  height: 124px;
 }

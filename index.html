@@ -2,388 +2,411 @@
 <html lang="uk">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="shortcut icon" href="./img/logo/logo-blue.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <title>WEG</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="shortcut icon" href="./img/logo/logo-blue.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styele.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <title>WEG</title>
+
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-container--flex">
-            <a href="./index.html"> <svg class="logo-svg" width="63" height="52">
-                    <use href="./img/symbol-defs.svg#logo-white"></use>
-                </svg></a>
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a class="navigation__link current" href="#Про нас">Про нас</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="./service.html">наші послуги</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#Наші переваги">Наші переваги</a>
-                    </li>
-                    <li class="navigation__item"><a class="navigation__link" href="#Контакти">Контакти</a></li>
-                </ul>
-            </nav>
-            <a class="navigation__item-link" href="tel:+38(067)-425-71-07">
-                <svg class="navigation__link--svg" width="15" height="21">
-                    <use href="./img/symbol-defs.svg#telephone"></use>
-                </svg>(067)-425-71-07</a>
-        </div>
-        <section class="section-hero">
-            <h1 class="section-hero__title-h1">західна експертна група</h1>
-            <div class="container--flex">
-                <h2 class="section-hero__title-h2">послуги у сфері експертизи проектування, будівництва та експлуатації
-                </h2>
-                <ul type="square" class="section-hero__list">
-                    <li class="section-hero__item "><span class="section-hero__item-text">Надання всебічної вартості і
-                            гарантовані результати нашим
-                            Клієнтам</span></li>
-                    <li class="section-hero__item section-hero__item--absolute "><span
-                            class="section-hero__item-text">Обрання
-                            найоптимальнішого тактико-економічного комплексу
-                            інженерних
-                            рішень на етапі проектування</span></li>
-                    <li class="section-hero__item"><span class="section-hero__item-text">Не переплачуйте за <br> зайву
-                            роботу</span></li>
-                </ul>
-            </div>
-            <button class="section-hero__button" type="button">безкоштовна консультація</button>
-            <ul class="hero-social__list">
-                <li class="hero-social__item">
-                    <a class="hero-social__link" href="https://www.instagram.com/" target="_blank"
-                        aria-label="іконка instagram" rel="noopener norefferer">
-                        <svg class="hero-social__svg" width="17" height="14">
-                            <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="hero-social__item">
-                    <a class="hero-social__link" href="https://twitter.com/" target="_blank" aria-label="іконка twitter"
-                        rel="noopener norefferer">
-                        <svg class="hero-social__svg" class="svg-twitter" width="17" height="14">
-                            <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="hero-social__item">
-                    <a class="hero-social__link" href="https://www.facebook.com/" target="_blank"
-                        aria-label="іконка facebook" rel="noopener norefferer">
-                        <svg class="hero-social__svg" width="17" height="14">
-                            <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="hero-social__item">
-                    <a class="hero-social__link" href="./" target="_blank" aria-label="іконка skype"
-                        rel="noopener norefferer">
-                        <svg class="hero-social__svg" width="17" height="14">
-                            <use href="./img/symbol-defs.svg#icon-skype"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            <div class="hero--decoration">
-                <p class="hero-text--decoration">Гортайте донизу</p>
-                <svg class="hero--decoration--svg" width="22" height="22">
-                    <use href="./img/symbol-defs.svg#icon-mouse"></use>
-                </svg>
-            </div>
-        </section>
-    </header>
-    <main class="main">
-        <section class="about" id="Про нас">
-            <div class="about--flex">
-                <div class="about-container--text">
-                    <h2 class="about__title">хто ми</h2>
-                    <h3 class="about__title--h3">Про наc</h3>
-                    <h4 class="about__title--h4">Наше підприємство працює згідно з принципами професіоналізму і якості.
-                    </h4>
-                    <p class="about__text--paragraph">Всі роботи спеціалістами виконуються на високому професійному <br>
-                        рівні,
-                        оперативна,
-                        якісно та на договірних засадах.<br>
-                        <br> На підприємстві створена сучасна нормативно-правова <br> та
-                        матеріально-технічна база з
-                        набутим досвідом успішного
-                        проведення зазначених робіт.
-                    </p>
-                    <h5 class="about__text-h5"> <span class="about__text-h5--strike">років досвіду</span> у сфері
-                        експертизи,
-                        проектування, будівництва та експлуатації</h5>
-                    <svg class="about__text-h5--svg" width="60" height="78">
-                        <use href="./img/symbol-defs.svg#icon-6"></use>
-                    </svg>
-                </div>
-                <div class="about-container--img">
-                    <img class="about__img" src="./img/about/pic.jpg" alt="">
-                </div>
-            </div>
-            <p class="about__text-h6"> хто ми</p>
-        </section>
-        <section class="service">
-            <h2 class="service__title--h2">наші послуги</h2>
-            <h3 class="service__title--h3"> напрямки нашої роботи</h3>
-            <ol class="service__list">
-                <li class="service__item service__item--before01">
-                    <svg class="service__item--decor01" width="500" height="310">
-                        <use href="./img/symbol-defs.svg#decor-service"></use>
-                    </svg>
-                    <h4 class="service__title--h4 ">Комплексна експертиза проектів будівництва</h4>
-                    <img class="service__img" src="./img/service/img-1.jpg" alt="фото-експертизи">
-                </li>
-                <li class="service__item service__item--before02">
-                    <svg class="service__item--decor02" width="500" height="310">
-                        <use href="./img/symbol-defs.svg#decor-service"></use>
-                    </svg>
-                    <h4 class="service__title--h4">Проектування</h4>
-                    <img class="service__img" src="./img/service/img-2.jpg" alt="фото-проекту">
-                </li>
-                <li class="service__item service__item--before03">
-                    <svg class="service__item--decor03" width="500" height="310">
-                        <use href="./img/symbol-defs.svg#decor-service"></use>
-                    </svg>
-                    <h4 class="service__title--h4">Інспектування</h4>
-                    <img class="service__img" src="./img/service/img-3.jpg" alt="інспектування">
-                </li>
-                <li class="service__item service__item--before04">
-                    <svg class="service__item--decor04" width="500" height="310">
-                        <use href="./img/symbol-defs.svg#decor-service"></use>
-                    </svg>
-                    <h4 class="service__title--h4">Консультативна допомога</h4>
-                    <img class="service__img" src="./img/service/img-4.jpg" alt="Консультація">
-                </li>
-                <li class="service__item service__item--before05">
-                    <svg class="service__item--decor05" width="500" height="310">
-                        <use href="./img/symbol-defs.svg#decor-service"></use>
-                    </svg>
-                    <h4 class="service__title--h4">Монтажні роботи та технічне
-                        обслуговування</h4>
-                    <img class="service__img" src="./img/service/img-5.jpg" alt="Монтаж">
-                </li>
-                <li class="service__item service__item--before06">
-                    <svg class="service__item--decor06" width="500" height="310">
-                        <use href="./img/symbol-defs.svg#decor-service"></use>
-                    </svg>
-                    <h4 class="service__title--h4">Цивільний захист</h4>
-                    <img class="service__img" src="./img/service/img-6.jpg" alt="цивільний-захист">
-                </li>
-            </ol>
-            <button class="service__button" type="button">дивитись Всі послуги</button>
-            <ul class="service-list--decor">
-                <li class="service--decor--reg90">наші послуги</li>
-                <li class="service--decor--reg180">наші послуги</li>
-            </ul>
-        </section>
-        <section class="help">
-            <h2 class="help__title">вам Потрібна професійна консультація? звертайтесь!</h2>
-            <form class="help__form" action="#" autocomplete="off">
-                <h3 class="help__title--h3">замовте безкоштовну консультацію</h3>
-                <p class="help__text">Наші спеціалісти зв’яжуться з Вами в найкоротші строки</p>
-                <label class="help__lable">Ваше ім’я
-                </label>
-                <input class="help__input" type="text" name="name" placeholder=" ">
-                <label class="help__lable">Телефон</label>
-                <input class="help__input" type="tel" placeholder=" ">
-                <div class="form-checkbox">
-                    <input class="form-checkbox__input" type="checkbox" id="checkbox">
-                    <label class="form-checkbox__leble" for="checkbox">
-                        Я даю згоду на обробку персональних даних
-                    </label>
-                    <button class="help__button" type="submit">відправити заявку</button>
-                </div>
-            </form>
-        </section>
-        <section class="benefits" id="Наші переваги">
-            <div class="benefit-container">
-                <h2 class="benefits__h2">чому ми?</h2>
-                <h3 class="benefits__h3">переваги нашої компанії</h3>
-                <ul class="benefits__list">
-                    <li class="benefits__item">
-                        <svg class="benefits__svg" width="46" height="55">
-                            <use href="./img/symbol-defs.svg#icon-entrepreneur"></use>
-                        </svg>
-                        <h4 class="benefits__h4 decoration--befor01">сертифіковані працівники</h4>
-                        <p class="benefits__text">У нас працюють лише сертифіковані працівники</p>
-                    </li>
-                    <li class="benefits__item">
-                        <svg class="benefits__svg" width="46" height="55">
-                            <use href="./img/symbol-defs.svg#icon-badge"></use>
-                        </svg>
-                        <h4 class="benefits__h4 decoration--befor02">Репутація</h4>
-                        <p class="benefits__text">Бездоганна репутація компанії</p>
-                    </li>
-                    <li class="benefits__item">
-                        <svg class="benefits__svg" width="46" height="55">
-                            <use href="./img/symbol-defs.svg#icon-wallet"></use>
-                        </svg>
-                        <h4 class="benefits__h4 decoration--befor03">Вартість і результати</h4>
-                        <p class="benefits__text">Надання всебічної вартості і гарантовані результати нашим Клієнтам</p>
-                    </li>
-                    <li class="benefits__item">
-                        <svg class="benefits__svg" width="46" height="55">
-                            <use href="./img/symbol-defs.svg#icon-security"></use>
-                        </svg>
-                        <h4 class="benefits__h4 decoration--befor04">Оптимальні рішення</h4>
-                        <p class="benefits__text">Обрання найоптимальнішого комплексу інженерних рішень на етапі
-                            проектування</p>
-                    </li>
-                    <li class="benefits__item">
-                        <svg class="benefits__svg" width="46" height="55">
-                            <use href="./img/symbol-defs.svg#icon-hand-shake-1"></use>
-                        </svg>
-                        <h4 class="benefits__h4 decoration--befor05">Принципи</h4>
-                        <p class="benefits__text">Ми принципово ставимось до своїх договірних зобов’язань</p>
-                    </li>
-                    <li class="benefits__item">
-                        <svg class="benefits__svg" width="46" height="55">
-                            <use href="./img/symbol-defs.svg#icon-insurance"></use>
-                        </svg>
-                        <h4 class="benefits__h4 decoration--befor06">відповідальність</h4>
-                        <p class="benefits__text">Ми постійно відчуваємо відповідальність за ввірені нам клієнтами
-                            здоров’я і життя</p>
-                    </li>
-                </ul>
-                <div class="benefits-button__container">
-                    <button type="button" class="benefits__button">безкоштовна консультація</button>
-                </div>
-                <ul class="benefits__list--decor">
-                    <li class="benefits__item--decor90reg"> чому ми ?</li>
-                    <li class="benefits__item--decor180reg"> чому ми ?</li>
-                </ul>
-        </section>
-        <section class="clients">
-            <div class="clients-container">
-                <h2 class="clients-title-h2">наші клієнти</h2>
-                <h3 class="clients-title-h3">Компанії, які нам довіряють</h3>
-            </div>
-            <ul class="clients__list">
-                <li class="clients__item">
-                    <a href="http://akvareli.ua/developer/"  target="_blank">
-                        <img class="clients__img" src="./img/clients/clients_1.jpg" alt="logotip_akvarel">
-                    </a>
-                </li>
-                <li class="clients__item">
-                    <a href="https://www.facebook.com/sebnua.khmelnytskyi.official/"  target="_blank">
-                        <img class="clients__img" src="./img/clients/clients_2.jpg" alt="logotip_akvarel">
-                    </a>
-                </li>
-                <li class="clients__item">
-                    <a href="http://vesnyanka.com.ua/"  target="_blank">
-                        <img class="clients__img" src="./img/clients/clients_3.jpg" alt="logotip_akvarel">
-                    </a>
-                </li>
-                <li class="clients__item">
-                    <a href="./ " target="_blank">
-                        <img class="clients__img" src="./img/clients/clients_4.jpg" alt="logotip_akvarel">
-                    </a>
-                </li>
-                <li class="clients__item">
-                    <a href="http://budal.com.ua/" target="_blank">
-                        <img class="clients__img" src="./img/clients/clients_5.jpg" alt="logotip_akvarel">
-                    </a>
-                </li>
-                <li class="clients__item">
-                    <a href="https://dita.ua/" target="_blank">
-                        <img class="clients__img" src="./img/clients/clients_6.jpg" alt="logotip_akvarel">
-                    </a>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer class="footer" id="Контакти">
-        <div class="container-footer">
-            <h2 class="contacts__title">наші контакти</h2>
-            <address class="contacts__address">
-                29017, м. Хмельницький,<br> вул. Зарічанська, 3/1, оф. 217
-            </address>
-            <ul class="contacts-telefon__list">
-                <li class="contact-telefon__item">
-                    <a class="contact-telefon__link" href="tel:+38(067)4257107">+38 (067) - 425 - 71 - 07</a>
-                </li>
-                <li class="contacts-telefon__item">
-                    <a class="contact-telefon__link" href="tel:+38(098)2625890 ">+38 (098) - 262 - 58 - 90</a>
-                </li>
-            </ul>
-            <p class="mail__text"><a class="link__mail" href="mailto:tovzeg@ukr.net">tovzeg@ukr.net</a></p>
-            <ul class="work__list">
-                <li class="work__item">пн-пт: <span class="work__item--text">9:00 - 18:00</span></li>
-                <li class="work__item">сб-нд: <span class="work__item--text">вихідні</span></li>
-            </ul>
-            <form class="contacts-from">
-                <h3 class="contacts-form__title">Маєте питання? зв’яжіться з нами!</h3>
-                <p class="contacts-form__text">Заповніть форму зворотнього зв’язку і наші спеціалісти <br> зв’яжуться з
-                    Вами в найкоротші строки</p>
-                <div class="container-form__input">
-                    <input class="contacts__input" type="tel" id="name">
-                    <label class="" for="name">Ваше ім’я</label>
-                    <input class="contacts__input" type="tel" id="mobile">
-                    <label class="" for="mobile">Ваш телефон</label>
-                </div>
-                <label class="lable-texteria__question" for="question">Ваше запитання</label>
-                <textarea class="contacts__texteria" id="question" name="question" cols="30" rows="10"></textarea>
-                <div class="form-container-question--flex">
-                    <input class="input-checkbox__question" type="checkbox" id="checkbox-question">
-                    <label class="lable-checkbox__question" type="checkbox" for="checkbox-question">Я даю згоду на
-                        обробку <br> персональних даних</label>
-                    <button class="form-contact__button" type="submit">відправити </button>
-                </div>
-            </form>
-        </div>
-        <section class="navigation-footer__container">
-            <svg class="navigation-footer__svg" width="49" height="40">
-                <use href="./img/symbol-defs.svg#logo-white"></use>
-                <nav class="navigation__footer">
-                    <ul class="navigation-footer__list">
-                        <li class="navigation-footer__item"><a class="navigation-footer__link" href="#Про нас">Про
-                                нас</a></li>
-                        <li class="navigation-footer__item"><a class="navigation-footer__link"
-                                href="./poslugi.html">наші послуги</a></li>
-                        <li class="navigation-footer__item"><a class="navigation-footer__link"
-                                href="#Наші переваги">Наші переваги</a></li>
-                        <li class="navigation-footer__item"><a class="navigation-footer__link"
-                                href="#контакти">контакти</a></li>
-                    </ul>
-                </nav>
+  <header class="header">
+    <div class="header-container--flex">
+      <a href="./index.html"> <svg class="logo-svg" width="63" height="52">
+          <use href="./img/symbol-defs.svg#logo-white"></use>
+        </svg></a>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a class="navigation__link current" href="#Про нас">Про нас</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="./service.html">наші послуги</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#Наші переваги">Наші переваги</a>
+          </li>
+          <li class="navigation__item"><a class="navigation__link" href="#Контакти">Контакти</a></li>
+        </ul>
+      </nav>
+      <a class="navigation__item-link" href="tel:+38(067)-425-71-07">
+        <svg class="navigation__link--svg" width="15" height="21">
+          <use href="./img/symbol-defs.svg#telephone"></use>
+        </svg>(067)-425-71-07</a>
+    </div>
+    <section class="section-hero">
+      <h1 class="section-hero__title-h1">західна експертна група</h1>
+      <div class="container--flex">
+        <h2 class="section-hero__title-h2">послуги у сфері експертизи проектування, будівництва та експлуатації
+        </h2>
+        <ul type="square" class="section-hero__list">
+          <li class="section-hero__item "><span class="section-hero__item-text">Надання всебічної вартості і
+              гарантовані результати нашим
+              Клієнтам</span></li>
+          <li class="section-hero__item section-hero__item--absolute "><span class="section-hero__item-text">Обрання
+              найоптимальнішого тактико-економічного комплексу
+              інженерних
+              рішень на етапі проектування</span></li>
+          <li class="section-hero__item"><span class="section-hero__item-text">Не переплачуйте за <br> зайву
+              роботу</span></li>
+        </ul>
+      </div>
+      <button class="section-hero__button" type="button">безкоштовна консультація</button>
+      <ul class="hero-social__list">
+        <li class="hero-social__item">
+          <a class="hero-social__link" href="https://www.instagram.com/" target="_blank" aria-label="іконка instagram"
+            rel="noopener norefferer">
+            <svg class="hero-social__svg" width="17" height="14">
+              <use href="./img/symbol-defs.svg#icon-instagram"></use>
             </svg>
-            <ul class="footer-socsety__list">
-                <li class="footer-socsety__item">
-                    <a class="footer-socsety__link" href="https://www.instagram.com/">
-                        <svg class="footer-socsety__svg" width="14" height="17">
-                            <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                        </svg></a>
-                </li>
-                <li class="footer-socsety__item">
-                    <a class="footer-socsety__link" href="https://twitter.com/">
-                        <svg class="footer-socsety__svg" width="14" height="17">
-                            <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                        </svg></a>
-                </li>
-                <li class="footer-socsety__item">
-                    <a class="footer-socsety__link" href="#">
-                        <svg class="footer-socsety__svg" width="14" height="17">
-                            <use href="./img/symbol-defs.svg#icon-skype"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-socsety__item">
-                    <a class="footer-socsety__link" href="https://www.facebook.com/">
-                        <svg class="footer-socsety__svg" width="14" height="17">
-                            <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <section class="footer-simbol">
-            <h2 class="footer-simbol__text">&#169 2021 Західна Експертна група. Всі права захищені</h2>
-        </section>
-    </footer>
+          </a>
+        </li>
+        <li class="hero-social__item">
+          <a class="hero-social__link" href="https://twitter.com/" target="_blank" aria-label="іконка twitter"
+            rel="noopener norefferer">
+            <svg class="hero-social__svg" class="svg-twitter" width="17" height="14">
+              <use href="./img/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="hero-social__item">
+          <a class="hero-social__link" href="https://www.facebook.com/" target="_blank" aria-label="іконка facebook"
+            rel="noopener norefferer">
+            <svg class="hero-social__svg" width="17" height="14">
+              <use href="./img/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="hero-social__item">
+          <a class="hero-social__link" href="./" target="_blank" aria-label="іконка skype" rel="noopener norefferer">
+            <svg class="hero-social__svg" width="17" height="14">
+              <use href="./img/symbol-defs.svg#icon-skype"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="hero--decoration">
+        <p class="hero-text--decoration">Гортайте донизу</p>
+        <svg class="hero--decoration--svg" width="22" height="22">
+          <use href="./img/symbol-defs.svg#icon-mouse"></use>
+        </svg>
+      </div>
+    </section>
+  </header>
+  <main class="main">
+    <section class="about" id="Про нас">
+      <div class="about--flex">
+        <div class="about-container--text">
+          <h2 class="about__title">хто ми</h2>
+          <h3 class="about__title--h3">Про наc</h3>
+          <h4 class="about__title--h4">Наше підприємство працює згідно з принципами професіоналізму і якості.
+          </h4>
+          <p class="about__text--paragraph">Всі роботи спеціалістами виконуються на високому професійному <br>
+            рівні,
+            оперативна,
+            якісно та на договірних засадах.<br>
+            <br> На підприємстві створена сучасна нормативно-правова <br> та
+            матеріально-технічна база з
+            набутим досвідом успішного
+            проведення зазначених робіт.
+          </p>
+          <h5 class="about__text-h5"> <span class="about__text-h5--strike">років досвіду</span> у сфері
+            експертизи,
+            проектування, будівництва та експлуатації</h5>
+          <svg class="about__text-h5--svg" width="60" height="78">
+            <use href="./img/symbol-defs.svg#icon-6"></use>
+          </svg>
+        </div>
+        <div class="about-container--img">
+          <img class="about__img" src="./img/about/pic.jpg" alt="">
+        </div>
+      </div>
+      <p class="about__text-h6"> хто ми</p>
+    </section>
+    <section class="service">
+      <h2 class="service__title--h2">наші послуги</h2>
+      <h3 class="service__title--h3"> напрямки нашої роботи</h3>
+      <ol class="service__list">
+        <li class="service__item service__item--before01">
+          <svg class="service__item--decor01" width="500" height="310">
+            <use href="./img/symbol-defs.svg#decor-service"></use>
+          </svg>
+          <h4 class="service__title--h4 ">Комплексна експертиза проектів будівництва</h4>
+          <img class="service__img" src="./img/service/img-1.jpg" alt="фото-експертизи">
+        </li>
+        <li class="service__item service__item--before02">
+          <svg class="service__item--decor02" width="500" height="310">
+            <use href="./img/symbol-defs.svg#decor-service"></use>
+          </svg>
+          <h4 class="service__title--h4">Проектування</h4>
+          <img class="service__img" src="./img/service/img-2.jpg" alt="фото-проекту">
+        </li>
+        <li class="service__item service__item--before03">
+          <svg class="service__item--decor03" width="500" height="310">
+            <use href="./img/symbol-defs.svg#decor-service"></use>
+          </svg>
+          <h4 class="service__title--h4">Інспектування</h4>
+          <img class="service__img" src="./img/service/img-3.jpg" alt="інспектування">
+        </li>
+        <li class="service__item service__item--before04">
+          <svg class="service__item--decor04" width="500" height="310">
+            <use href="./img/symbol-defs.svg#decor-service"></use>
+          </svg>
+          <h4 class="service__title--h4">Консультативна допомога</h4>
+          <img class="service__img" src="./img/service/img-4.jpg" alt="Консультація">
+        </li>
+        <li class="service__item service__item--before05">
+          <svg class="service__item--decor05" width="500" height="310">
+            <use href="./img/symbol-defs.svg#decor-service"></use>
+          </svg>
+          <h4 class="service__title--h4">Монтажні роботи та технічне
+            обслуговування</h4>
+          <img class="service__img" src="./img/service/img-5.jpg" alt="Монтаж">
+        </li>
+        <li class="service__item service__item--before06">
+          <svg class="service__item--decor06" width="500" height="310">
+            <use href="./img/symbol-defs.svg#decor-service"></use>
+          </svg>
+          <h4 class="service__title--h4">Цивільний захист</h4>
+          <img class="service__img" src="./img/service/img-6.jpg" alt="цивільний-захист">
+        </li>
+      </ol>
+      <button class="service__button" type="button">дивитись Всі послуги</button>
+      <ul class="service-list--decor">
+        <li class="service--decor--reg90">наші послуги</li>
+        <li class="service--decor--reg180">наші послуги</li>
+      </ul>
+    </section>
+    <section class="help">
+      <h2 class="help__title">вам Потрібна професійна консультація? звертайтесь!</h2>
+      <form class="help__form" action="#" autocomplete="off">
+        <h3 class="help__title--h3">замовте безкоштовну консультацію</h3>
+        <p class="help__text">Наші спеціалісти зв’яжуться з Вами в найкоротші строки</p>
+        <label class="help__lable">Ваше ім’я
+        </label>
+        <input class="help__input" type="text" name="name" placeholder=" ">
+        <label class="help__lable">Телефон</label>
+        <input class="help__input" type="tel" placeholder=" ">
+        <div class="form-checkbox">
+          <input class="form-checkbox__input" type="checkbox" id="checkbox">
+          <label class="form-checkbox__leble" for="checkbox">
+            Я даю згоду на обробку персональних даних
+          </label>
+          <button class="help__button" type="submit">відправити заявку</button>
+        </div>
+      </form>
+    </section>
+    <section class="benefits" id="Наші переваги">
+      <div class="benefit-container">
+        <h2 class="benefits__h2">чому ми?</h2>
+        <h3 class="benefits__h3">переваги нашої компанії</h3>
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <svg class="benefits__svg" width="46" height="55">
+              <use href="./img/symbol-defs.svg#icon-entrepreneur"></use>
+            </svg>
+            <h4 class="benefits__h4 decoration--befor01">сертифіковані працівники</h4>
+            <p class="benefits__text">У нас працюють лише сертифіковані працівники</p>
+          </li>
+          <li class="benefits__item">
+            <svg class="benefits__svg" width="46" height="55">
+              <use href="./img/symbol-defs.svg#icon-badge"></use>
+            </svg>
+            <h4 class="benefits__h4 decoration--befor02">Репутація</h4>
+            <p class="benefits__text">Бездоганна репутація компанії</p>
+          </li>
+          <li class="benefits__item">
+            <svg class="benefits__svg" width="46" height="55">
+              <use href="./img/symbol-defs.svg#icon-wallet"></use>
+            </svg>
+            <h4 class="benefits__h4 decoration--befor03">Вартість і результати</h4>
+            <p class="benefits__text">Надання всебічної вартості і гарантовані результати нашим Клієнтам</p>
+          </li>
+          <li class="benefits__item">
+            <svg class="benefits__svg" width="46" height="55">
+              <use href="./img/symbol-defs.svg#icon-security"></use>
+            </svg>
+            <h4 class="benefits__h4 decoration--befor04">Оптимальні рішення</h4>
+            <p class="benefits__text">Обрання найоптимальнішого комплексу інженерних рішень на етапі
+              проектування</p>
+          </li>
+          <li class="benefits__item">
+            <svg class="benefits__svg" width="46" height="55">
+              <use href="./img/symbol-defs.svg#icon-hand-shake-1"></use>
+            </svg>
+            <h4 class="benefits__h4 decoration--befor05">Принципи</h4>
+            <p class="benefits__text">Ми принципово ставимось до своїх договірних зобов’язань</p>
+          </li>
+          <li class="benefits__item">
+            <svg class="benefits__svg" width="46" height="55">
+              <use href="./img/symbol-defs.svg#icon-insurance"></use>
+            </svg>
+            <h4 class="benefits__h4 decoration--befor06">відповідальність</h4>
+            <p class="benefits__text">Ми постійно відчуваємо відповідальність за ввірені нам клієнтами
+              здоров’я і життя</p>
+          </li>
+        </ul>
+        <div class="benefits-button__container">
+          <button type="button" class="benefits__button">безкоштовна консультація</button>
+        </div>
+        <ul class="benefits__list--decor">
+          <li class="benefits__item--decor90reg"> чому ми ?</li>
+          <li class="benefits__item--decor180reg"> чому ми ?</li>
+        </ul>
+    </section>
+    <section class="clients">
+      <h2 class="clients-title-h2">наші клієнти</h2>
+      <h3 class="clients-title-h3">Компанії, які нам довіряють</h3>
+      <div class="swiper mySwiper">
+        <div class="clients__list swiper-wrapper">
+          <div class="clients__item  swiper-slide">
+            <a href="http://akvareli.ua/developer/" target="_blank">
+              <img class="clients__img" src="./img/clients/clients_1.jpg" alt="logotip_akvarel">
+            </a>
+          </div>
+          <div class="clients__item swiper-slide">
+            <a href="https://www.facebook.com/sebnua.khmelnytskyi.official/" target="_blank">
+              <img class="clients__img" src="./img/clients/clients_2.jpg" alt="logotip_akvarel">
+            </a>
+          </div>
+          <div class="clients__item swiper-slide">
+            <a href="http://vesnyanka.com.ua/" target="_blank">
+              <img class="clients__img" src="./img/clients/clients_3.jpg" alt="logotip_akvarel">
+            </a>
+          </div>
+          <div class="clients__item swiper-slide">
+            <a href="./ " target="_blank">
+              <img class="clients__img" src="./img/clients/clients_4.jpg" alt="logotip_akvarel">
+            </a>
+          </div>
+          <div class="clients__item swiper-slide">
+            <a href="http://budal.com.ua/" target="_blank">
+              <img class="clients__img" src="./img/clients/clients_5.jpg" alt="logotip_akvarel">
+            </a>
+          </div>
+          <div class="clients__item swiper-slide">
+            <a href="https://dita.ua/" target="_blank">
+              <img class="clients__img" src="./img/clients/clients_6.jpg" alt="logotip_akvarel">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="Контакти">
+    <div class="container-footer">
+      <h2 class="contacts__title">наші контакти</h2>
+      <address class="contacts__address">
+        29017, м. Хмельницький,<br> вул. Зарічанська, 3/1, оф. 217
+      </address>
+      <ul class="contacts-telefon__list">
+        <li class="contact-telefon__item">
+          <a class="contact-telefon__link" href="tel:+38(067)4257107">+38 (067) - 425 - 71 - 07</a>
+        </li>
+        <li class="contacts-telefon__item">
+          <a class="contact-telefon__link" href="tel:+38(098)2625890 ">+38 (098) - 262 - 58 - 90</a>
+        </li>
+      </ul>
+      <p class="mail__text"><a class="link__mail" href="mailto:tovzeg@ukr.net">tovzeg@ukr.net</a></p>
+      <ul class="work__list">
+        <li class="work__item">пн-пт: <span class="work__item--text">9:00 - 18:00</span></li>
+        <li class="work__item">сб-нд: <span class="work__item--text">вихідні</span></li>
+      </ul>
+      <form class="contacts-from">
+        <h3 class="contacts-form__title">Маєте питання? зв’яжіться з нами!</h3>
+        <p class="contacts-form__text">Заповніть форму зворотнього зв’язку і наші спеціалісти <br> зв’яжуться з
+          Вами в найкоротші строки</p>
+        <div class="container-form__input">
+          <input class="contacts__input" type="tel" id="name">
+          <label class="" for="name">Ваше ім’я</label>
+          <input class="contacts__input" type="tel" id="mobile">
+          <label class="" for="mobile">Ваш телефон</label>
+        </div>
+        <label class="lable-texteria__question" for="question">Ваше запитання</label>
+        <textarea class="contacts__texteria" id="question" name="question" cols="30" rows="10"></textarea>
+        <div class="form-container-question--flex">
+          <input class="input-checkbox__question" type="checkbox" id="checkbox-question">
+          <label class="lable-checkbox__question" type="checkbox" for="checkbox-question">Я даю згоду на
+            обробку <br> персональних даних</label>
+          <button class="form-contact__button" type="submit">відправити </button>
+        </div>
+      </form>
+    </div>
+    <section class="navigation-footer__container">
+      <svg class="navigation-footer__svg" width="49" height="40">
+        <use href="./img/symbol-defs.svg#logo-white"></use>
+        <nav class="navigation__footer">
+          <ul class="navigation-footer__list">
+            <li class="navigation-footer__item"><a class="navigation-footer__link" href="#Про нас">Про
+                нас</a></li>
+            <li class="navigation-footer__item"><a class="navigation-footer__link" href="./poslugi.html">наші
+                послуги</a></li>
+            <li class="navigation-footer__item"><a class="navigation-footer__link" href="#Наші переваги">Наші
+                переваги</a>
+            </li>
+            <li class="navigation-footer__item"><a class="navigation-footer__link" href="#контакти">контакти</a></li>
+          </ul>
+        </nav>
+      </svg>
+      <ul class="footer-socsety__list">
+        <li class="footer-socsety__item">
+          <a class="footer-socsety__link" href="https://www.instagram.com/">
+            <svg class="footer-socsety__svg" width="14" height="17">
+              <use href="./img/symbol-defs.svg#icon-instagram"></use>
+            </svg></a>
+        </li>
+        <li class="footer-socsety__item">
+          <a class="footer-socsety__link" href="https://twitter.com/">
+            <svg class="footer-socsety__svg" width="14" height="17">
+              <use href="./img/symbol-defs.svg#icon-twitter"></use>
+            </svg></a>
+        </li>
+        <li class="footer-socsety__item">
+          <a class="footer-socsety__link" href="#">
+            <svg class="footer-socsety__svg" width="14" height="17">
+              <use href="./img/symbol-defs.svg#icon-skype"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-socsety__item">
+          <a class="footer-socsety__link" href="https://www.facebook.com/">
+            <svg class="footer-socsety__svg" width="14" height="17">
+              <use href="./img/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="footer-simbol">
+      <h2 class="footer-simbol__text">&#169 2021 Західна Експертна група. Всі права захищені</h2>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 5,
+      slidesPerGroup: 2,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 
 </html>

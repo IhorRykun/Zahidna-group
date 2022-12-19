@@ -1372,6 +1372,21 @@ img {
   color: #2b2b2b;
 }
 
+.swiper {
+  width: 1200px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 41px 0;
+}
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
@@ -1913,28 +1928,13 @@ img {
 }
 
 .clients__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #fff;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.clients__item {
-  margin: 41px 0;
-  margin-left: 41px;
+  padding: 41px 10px;
 }
 
 .clients__img {
   width: 150px;
+  margin: 0;
+  height: 124px;
 }
 
 .footer {
