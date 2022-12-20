@@ -1944,9 +1944,10 @@ img {
 }
 
 .clients__img {
-  width: 110px;
+  display: block;
+  width: 120px;
   margin: 0;
-  height: 75px;
+  height: 95px;
 }
 
 .footer {
