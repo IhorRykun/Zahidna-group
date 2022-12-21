@@ -1370,6 +1370,16 @@ img {
   display: -ms-flexbox;
   display: flex;
   color: #2b2b2b;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.advice__block-text {
+  margin-top: 21px;
+  width: 683px;
+  margin-right: 71px;
 }
 
 .mySwiper {
@@ -1391,6 +1401,10 @@ img {
 
 .swiper-button-prev:hover {
   color: #2b2b2b;
+}
+
+.construction__block-text {
+  margin-top: 34px;
 }
 
 @-webkit-keyframes heartbeat {
