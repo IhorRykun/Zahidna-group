@@ -418,7 +418,7 @@ img {
 
 .header-hero {
   background-image: url(../img/hero/hero_service.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 1920px;
   padding-bottom: 175px;
@@ -849,6 +849,7 @@ img {
 
 .expertize {
   width: 1920px;
+  position: relative;
 }
 
 .list__services-expertize {
@@ -910,6 +911,44 @@ img {
 .container-expertize--left {
   width: 683px;
   margin-right: 71px;
+}
+
+.service-list--decor--expertize {
+  list-style: none;
+}
+
+.service-list--decor--expertiz--reg90 {
+  position: absolute;
+  top: 950px;
+  left: -850px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 2.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.15;
+  text-shadow: 0px 0px 3px rgb(0, 0, 0);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.service-list--decor--expertiz--reg180 {
+  position: absolute;
+  top: 950px;
+  right: -880px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 2.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.15;
+  text-shadow: 0px 0px 3px rgb(0, 0, 0);
+  -webkit-transform: rotate(-270deg);
+          transform: rotate(-270deg);
 }
 
 .service {
