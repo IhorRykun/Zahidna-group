@@ -352,6 +352,7 @@
 .inspection {
   width: 1920px;
   padding: 100px 0;
+  padding-bottom: 120px;
 }
 
 .inspection-container {
@@ -417,15 +418,17 @@
   width: 1920px;
   background: #fff;
   padding: 100px 0;
+  padding-top: 120px;
   position: relative;
 }
 
 .advice__decor__list {
+  list-style: none;
 }
 
 .advice__decor__item--reg90 {
   position: absolute;
-  top: 880px;
+  top: 910px;
   left: -850px;
   font-style: normal;
   font-weight: 800;
@@ -441,8 +444,8 @@
 
 .advice__decor__item--reg270 {
   position: absolute;
-  top: 880px;
-  right:-900px;
+  top: 910px;
+  right: -900px;
   font-style: normal;
   font-weight: 800;
   font-size: 140px;
@@ -453,7 +456,7 @@
 
   opacity: 0.15;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
-  transform: rotate(-90deg);
+  transform: rotate(-270deg);
 }
 .advice__block {
   width: 1200px;
