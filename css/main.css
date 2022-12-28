@@ -421,7 +421,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   width: 1920px;
-  padding-bottom: 175px;
+  height: 400px;
   position: relative;
 }
 
