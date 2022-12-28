@@ -1408,6 +1408,41 @@ img {
   width: 1920px;
   background: #fff;
   padding: 100px 0;
+  position: relative;
+}
+
+.advice__decor__item--reg90 {
+  position: absolute;
+  top: 880px;
+  left: -850px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 2.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.15;
+  text-shadow: 0px 0px 3px rgb(0, 0, 0);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.advice__decor__item--reg270 {
+  position: absolute;
+  top: 880px;
+  right: -900px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 2.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.15;
+  text-shadow: 0px 0px 3px rgb(0, 0, 0);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .advice__block {
