@@ -1,5 +1,26 @@
 {
+  "name": "zahidna-group",
+  "version": "1.0.0",
+  "description": "Сайт роботи",
+  "main": "index.js",
   "dependencies": {
+    "dom7": "^4.0.4",
+    "jquery": "^3.6.3",
+    "ssr-window": "^4.0.2",
     "swiper": "^8.4.5"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhorRykun/Zahidna-group.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IhorRykun/Zahidna-group/issues"
+  },
+  "homepage": "https://github.com/IhorRykun/Zahidna-group#readme"
 }
