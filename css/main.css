@@ -615,6 +615,12 @@ img {
   bottom: 49px;
   right: 38px;
 }
+@media screen and (max-width: 1920px) {
+  .hero-social__list {
+    bottom: 40px;
+    right: 20px;
+  }
+}
 
 .hero-social__item {
   margin-bottom: 24px;

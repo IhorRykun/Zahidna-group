@@ -104,6 +104,10 @@
 
 // !    соціальні мережі героя
 .hero-social__list {
+  @media screen and (max-width: 1920px) {
+    bottom: 40px;
+    right: 20px;
+  }
   list-style: none;
   position: absolute;
   bottom: 49px;
