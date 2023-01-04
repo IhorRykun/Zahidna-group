@@ -1,4 +1,7 @@
 .clients {
+  @media screen and (max-width: 1920px) {
+    width: 100%;
+  }
   background-color: #f2f2f4;
   padding: 100px 0;
   width: 1920px;
@@ -43,9 +46,8 @@
 }
 
 .clients__item {
-
   width: 50px;
-  height:125px;
+  height: 125px;
 }
 
 .clients__img {

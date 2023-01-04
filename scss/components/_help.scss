@@ -1,4 +1,7 @@
 .help {
+  @media screen and (max-width: 1920px) {
+    width: 100%;
+  }
   background-image: url(../img/help/help.jpg);
   background-size: cover;
   background-repeat: no-repeat;
