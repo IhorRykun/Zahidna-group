@@ -420,6 +420,10 @@
 }
 
 .service-list--decor--expertiz--reg180 {
+  @media screen and (max-width: 1599px) {
+    top: 950px;
+    right: -1000px;
+  }
   position: absolute;
   top: 950px;
   right: -880px;
