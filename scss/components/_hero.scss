@@ -345,6 +345,9 @@
   width: 682px;
 }
 .expertize {
+  @media screen and (max-width: 1599px) {
+    width: 100%;
+  }
   width: 1920px;
   position: relative;
 }

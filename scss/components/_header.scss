@@ -1,6 +1,9 @@
 // хедер сторінки
 .header {
-  @media screen and (max-width: 1920px)  {
+  @media screen and (max-width: 1599px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 1920px) {
     width: 100%;
   }
   background-image: url(../img/hero/hero.jpg);

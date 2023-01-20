@@ -291,6 +291,11 @@ img {
   background-size: cover;
   width: 1920px;
 }
+@media screen and (max-width: 1599px) {
+  .header {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1920px) {
   .header {
     width: 100%;
@@ -887,6 +892,11 @@ img {
   width: 1920px;
   position: relative;
 }
+@media screen and (max-width: 1599px) {
+  .expertize {
+    width: 100%;
+  }
+}
 
 .list__services-expertize {
   font-style: normal;
@@ -1301,6 +1311,11 @@ img {
   width: 1920px;
   background: #f2f2f4;
 }
+@media screen and (max-width: 1599px) {
+  .section__designing {
+    width: 100%;
+  }
+}
 
 .container__designing {
   margin: 0 auto;
@@ -1372,6 +1387,11 @@ img {
   padding: 100px 0;
   padding-bottom: 120px;
 }
+@media screen and (max-width: 1599px) {
+  .inspection {
+    width: 100%;
+  }
+}
 
 .inspection-container {
   width: 1200px;
@@ -1431,6 +1451,11 @@ img {
   background: #f2f2f4;
   padding: 100px 0;
 }
+@media screen and (max-width: 1599px) {
+  .construction {
+    width: 100%;
+  }
+}
 
 .construction__block {
   width: 1200px;
@@ -1452,6 +1477,11 @@ img {
   padding: 100px 0;
   padding-top: 120px;
   position: relative;
+}
+@media screen and (max-width: 1599px) {
+  .advice {
+    width: 100%;
+  }
 }
 
 .advice__decor__list {
