@@ -480,6 +480,11 @@ img {
   margin-bottom: 24px;
   margin-right: 38px;
 }
+@media screen and (max-width: 1599px) {
+  .service-social__item {
+    margin-bottom: 14px;
+  }
+}
 .service-social__item:last-child {
   margin-bottom: 0;
 }
@@ -984,6 +989,12 @@ img {
   text-shadow: 0px 0px 3px rgb(0, 0, 0);
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
+}
+@media screen and (max-width: 1599px) {
+  .service-list--decor--expertiz--reg90 {
+    top: 950px;
+    left: -1000px;
+  }
 }
 
 .service-list--decor--expertiz--reg180 {
@@ -1515,6 +1526,12 @@ img {
   text-shadow: 0px 0px 3px rgb(0, 0, 0);
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
+}
+@media screen and (max-width: 1599px) {
+  .advice__decor__item--reg90 {
+    top: 912px;
+    left: -1000px;
+  }
 }
 
 .advice__decor__item--reg270 {

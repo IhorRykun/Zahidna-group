@@ -442,6 +442,10 @@
 }
 
 .advice__decor__item--reg90 {
+   @media screen and (max-width: 1599px) {
+     top: 912px;
+  left: -1000px; 
+  }
   position: absolute;
   top: 910px;
   left: -850px;

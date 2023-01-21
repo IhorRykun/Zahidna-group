@@ -403,6 +403,11 @@
   list-style: none;
 }
 .service-list--decor--expertiz--reg90 {
+   @media screen and (max-width: 1599px) {
+     top: 950px;
+  left: -1000px; 
+  }
+
   position: absolute;
   top: 950px;
   left: -850px;
