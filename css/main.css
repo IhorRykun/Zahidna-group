@@ -1280,6 +1280,7 @@ img {
 }
 
 .service-list--decor {
+  display: block;
   list-style: none;
 }
 
@@ -1299,6 +1300,12 @@ img {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
+@media screen and (max-width: 1599px) {
+  .service--decor--reg90 {
+    top: 700px;
+    left: -480px;
+  }
+}
 
 .service--decor--reg180 {
   position: absolute;
@@ -1315,6 +1322,12 @@ img {
   text-shadow: 0px 0px 3px rgb(0, 0, 0);
   -webkit-transform: rotate(-270deg);
           transform: rotate(-270deg);
+}
+@media screen and (max-width: 1599px) {
+  .service--decor--reg180 {
+    top: 700px;
+    right: -450px;
+  }
 }
 
 .text__location {

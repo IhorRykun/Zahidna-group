@@ -249,9 +249,14 @@
   left: 590px;
 }
 .service-list--decor {
+  display: block;
   list-style: none;
 }
 .service--decor--reg90 {
+  @media screen and (max-width: 1599px) {
+    top: 700px;
+    left: -480px;
+  }
   position: absolute;
   top: 480px;
   left: -480px;
@@ -269,6 +274,10 @@
 }
 
 .service--decor--reg180 {
+  @media screen and (max-width: 1599px) {
+    top: 700px;
+    right: -450px;
+  }
   position: absolute;
   top: 480px;
   right: -450px;
@@ -442,9 +451,9 @@
 }
 
 .advice__decor__item--reg90 {
-   @media screen and (max-width: 1599px) {
-     top: 912px;
-  left: -1000px; 
+  @media screen and (max-width: 1599px) {
+    top: 912px;
+    left: -1000px;
   }
   position: absolute;
   top: 910px;
