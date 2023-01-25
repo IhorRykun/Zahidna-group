@@ -1073,6 +1073,12 @@ img {
   list-style: none;
 }
 
+@media screen and (max-width: 1599px) {
+  .service__item {
+    width: calc((100% - 140px) / 2);
+  }
+}
+
 .service__span-number {
   font-style: normal;
   font-weight: 800;
@@ -1122,7 +1128,7 @@ img {
 .service__item--before02::before {
   position: absolute;
   top: -22px;
-  left: 392px;
+  left: 390px;
   content: "02";
   display: block;
   width: 63px;
@@ -1154,6 +1160,12 @@ img {
   padding-top: 20px;
   color: #ffffff;
 }
+@media screen and (max-width: 1599px) {
+  .service__item--before03::before {
+    top: 430px;
+    left: -22px;
+  }
+}
 
 .service__item--before04::before {
   position: absolute;
@@ -1171,6 +1183,12 @@ img {
   text-transform: uppercase;
   padding-top: 20px;
   color: #ffffff;
+}
+@media screen and (max-width: 1599px) {
+  .service__item--before04::before {
+    top: 430px;
+    left: 390px;
+  }
 }
 
 .service__item--before05::before {
@@ -1190,6 +1208,12 @@ img {
   padding-top: 20px;
   color: #ffffff;
 }
+@media screen and (max-width: 1599px) {
+  .service__item--before05::before {
+    top: 882px;
+    left: -22px;
+  }
+}
 
 .service__item--before06::before {
   position: absolute;
@@ -1207,6 +1231,12 @@ img {
   text-transform: uppercase;
   padding-top: 20px;
   color: #ffffff;
+}
+@media screen and (max-width: 1599px) {
+  .service__item--before06::before {
+    top: 882px;
+    left: 390px;
+  }
 }
 
 .service__button {
@@ -1260,11 +1290,23 @@ img {
   top: 41px;
   left: 590px;
 }
+@media screen and (max-width: 1599px) {
+  .service__item--decor03 {
+    top: 492px;
+    left: -235px;
+  }
+}
 
 .service__item--decor04 {
   position: absolute;
   top: 493px;
   left: -235px;
+}
+@media screen and (max-width: 1599px) {
+  .service__item--decor04 {
+    top: 492px;
+    left: 178px;
+  }
 }
 
 .service__item--decor05 {
@@ -1272,11 +1314,23 @@ img {
   top: 493px;
   left: 178px;
 }
+@media screen and (max-width: 1599px) {
+  .service__item--decor05 {
+    top: 943px;
+    left: -235px;
+  }
+}
 
 .service__item--decor06 {
   position: absolute;
   top: 493px;
   left: 590px;
+}
+@media screen and (max-width: 1599px) {
+  .service__item--decor06 {
+    top: 943px;
+    left: 180px;
+  }
 }
 
 .service-list--decor {
